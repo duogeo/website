@@ -1,0 +1,29 @@
+<table class="tym-table">
+  <tr>
+<th></th>
+<th>{{ trans(key='teamheader', lang=lang) }}</th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+<th>4</th>
+<th>5</th>
+<th>6</th>
+<th>{{ trans(key='sum', lang=lang) }}</th>
+</tr>
+  
+  {% set data = load_data(path="results/"~file) %}
+  {% for row in [data.headers] | concat(with=data.records) %}
+  <tr>
+    {% for item in row %}
+    {% if loop.index == 2 %}
+    {% set nextitem = row | nth(n=2) %}
+    <td><div class="tym-vysledky"><div>{{item}}</div><div>{{nextitem}}</div></div></td>
+    {% elif loop.index == 3 %}
+    {% continue %}
+    {% else %}
+    <td>{{item}}</td>
+    {% endif %}
+    {% endfor %}
+  </tr>
+  {% endfor %}
+</table>
