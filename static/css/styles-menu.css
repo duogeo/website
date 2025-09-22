@@ -38,6 +38,11 @@
     /*transition: background-color 0.3s ease;*/
 }
 
+.menu-group:visited{
+    color: var(--menu-text-color);
+    text-decoration: none;
+}
+
 @media (max-width: 875px) {
     #menu-bar input[type="checkbox"],
     #menu-bar .hamburger-lines {
