@@ -1,55 +1,34 @@
 {% extends "base.html" %}
 
 {% block content %}
+
 <div class="grid">
-  <div class="box" id="box1"><div class="box-element">
-      <h2>Kde?</h2>
+  {% for box in section.extra.boxes %}
+  <div class="box" id="box{{loop.index}}"><div class="box-element">
+      <h2>{{box.header}}</h2>
       <ul class="box-ul">
-	<li> 🇨🇿 <b>Praha</b></li>
-	<li> 🇸🇰 <b>Bratislava</b></li>
+	{% for item in box.items %}
+	<li>{{item | markdown | safe}}</li>
+	{% endfor %}
       </ul>
-  </div></div>
-  <div class="box" id="box2"><div class="box-element">
-      <h2>Kdy?</h2>
-      <ul class="box-ul">
-	<li><b>Neděle 9.2.2025</b> pro ZŠ</li>
-	<li><b>Neděle 16.2.2025</b> pro SŠ</li>
-      </ul>
-  </div></div>
-  <div class="box" id="box3"><div class="box-element">
-      <h2>Pro koho?</h2>
-      <ul class="box-ul">
-	<li><b>Začátečníky i pokročilé</b> 📏</li>
-	<li><b>Dvojčlenné týmy</b> 🎉</li>
-      </ul>
-  </div></div>
-  <div class="box" id="box4"><div class="box-element">
-      <h2>Proč?</h2>
-      <ul class="box-ul">
-	<li><b>Geometrie</b> je zábava 😇</li>
-	<li>A ještě lepší <b>ve dvojici</b> 🥰</li>
-      </ul>
-  </div></div>
+  </div></div>   
+  {% endfor %}
 </div>
 
 <div class="colored-bg">
   <div class="flex bottom-info">
+    {% for text in section.extra.texts %}
     <div class="box"><div class="box-element">
-	<p>Pro podrobnější informace si prečti sekci <a class="blue" href="./rules.html">O soutěži</a>. </p>
+	{{ text | markdown | safe }}
     </div></div>
-    <div class="box"><div class="box-element">
-	<p>Pokud máš další otázky, <a class="blue" href="contact.html">kontaktuj</a> kohokoli z nás. </p>
-    </div></div>
-    <div class="box"><div class="box-element">
-	<p>Jestli je všechno jasné, tak neváhej a <a class="blue" href="register.html">registruj</a>! </p>
-    </div></div>
+    {% endfor %}
   </div>
 </div>
 
 <div class="big-button-wrapper">
-  <a href="./register.html" class="big-button">Zaregistruj svůj tým!</a>
+  <a href="./register.html" class="big-button">{{ section.extra.register }}</a>
 </div>
-<h2> Soutěž vznikla ve spolupráci s</h2>
+<h2>{{ section.extra.sponsors }}</h2>
 <div class="flex logos">
   <div class="box-element">
     <p><a href="https://www.matematickaolympiada.cz/">

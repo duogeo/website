@@ -254,7 +254,7 @@ iframe{
     list-style: none;
 }
 
-.blue:visited {
+a:visited {
     color: blue;
 }
 
@@ -325,6 +325,11 @@ h2{
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 7px;
+}
+
+.big-button:visited {
+    color: white;
+    text-decoration: none;
 }
 
 @media (max-width: 875px) {
