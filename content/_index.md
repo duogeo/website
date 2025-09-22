@@ -7,7 +7,7 @@ sponsors = "Soutěž vznikla ve spolupráci s"
 texts = [
 "Pro podrobnější informace si prečti sekci [O soutěži](/rules)",
 "Pokud máš další otázky, [kontaktuj](/contact) kohokoli z nás.",
-"Jestli je všechno jasné, tak neváhej a [registruj](/register)!</a>"
+"Jestli je všechno jasné, tak neváhej a [registruj](/register)!"
 ]
 
 [[extra.boxes]]
