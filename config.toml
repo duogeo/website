@@ -16,5 +16,11 @@ highlight_code = false
 teamheader = "Tým"
 sum = "Součet"
 
+main = "Úvod"
+about = "O soutěži"
+results = "Aktuální ročník"
+contact = "Kontakty"
+
 [extra]
 # Put all your custom variables here
+
