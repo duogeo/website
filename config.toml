@@ -1,3 +1,5 @@
+default_language="cs"
+
 # The URL the site will be built for
 base_url = "https://duogeo.cz"
 
@@ -12,6 +14,15 @@ build_search_index = false
 # Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
 highlight_code = false
 
+[languages.en.translations]
+teamheader = "Team"
+sum = "Total"
+
+main = "Main page"
+about = "About us"
+results = "This year"
+contact = "Contacts"
+
 [translations]
 teamheader = "Tým"
 sum = "Součet"
@@ -23,4 +34,3 @@ contact = "Kontakty"
 
 [extra]
 # Put all your custom variables here
-

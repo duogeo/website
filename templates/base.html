@@ -31,19 +31,23 @@
         <span class="line line3"></span>
       </div>
       <ul id="menu-list">
-        <li><a class="menu-group" href="/">
+        <li><a class="menu-group" href="{{ get_url(path='@/_index.md',lang=lang) }}">
             <p>{{ trans(key='main', lang=lang) }}</p>
         </a></li>
-	<li><a class="menu-group" href="/rules">
+	<li><a class="menu-group" href="{{ get_url(path='@/rules.md',lang=lang) }}">
             <p>{{ trans(key='about', lang=lang) }}</p>
         </a></li>
-        <li><a class="menu-group" href="/results">
+        <li><a class="menu-group" href="{{ get_url(path='@/results.md',lang=lang) }}">
             <p>{{ trans(key='results', lang=lang) }}</p>
         </a></li>
-        <li><a class="menu-group" href="/contact">
+        <li><a class="menu-group" href="{{ get_url(path='@/contact.md',lang=lang) }}">
             <p>{{ trans(key='contact', lang=lang) }}</p>
         </a></li>
       </ul>
+      <div id="languages">
+          <a href="/">🇨🇿</a>
+          <a href="/en">🇬🇧</a>
+      </div>
     </nav>
     
     <div id="strip">
