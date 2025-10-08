@@ -7,13 +7,13 @@ template="contact.html"
 name="Michal Pecho"
 email="michalpecho19@gmail.com"
 img="pecho.jpg"
-role="Hlavní organizátor"
+role="Main organizer"
 
 [[extra.org]]
 name="Radek Olšák"
 email="radek@olsak.net"
 img="radek.jpg"
-role="Hlavní organizátor"
+role="Main organizer"
 
 [[extra.org]]
 name="Jolana Štraitová"
