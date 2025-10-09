@@ -27,6 +27,22 @@
     margin: 0;
 }
 
+#languages {
+    position: absolute;
+    top: 0;
+    right:0;
+    height: var(--menu-height);
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+}
+
+.lang-link {
+    font-size: 1.5em;
+    text-decoration: none;
+    margin: 5px;
+}
+
 .menu-group{
     color: var(--menu-text-color);
     display: flex;
