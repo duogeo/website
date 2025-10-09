@@ -6,56 +6,56 @@ template="contact.html"
 [[extra.org]]
 name="Michal Pecho"
 email="michalpecho19@gmail.com"
-img="pecho.jpg"
+img="pecho.webp"
 role="Hlavní organizátor"
 
 [[extra.org]]
 name="Radek Olšák"
 email="radek@olsak.net"
-img="radek.jpg"
+img="radek.webp"
 role="Hlavní organizátor"
 
 [[extra.org]]
 name="Jolana Štraitová"
 email="jol.straitova@gmail.com"
-img="jolca.jpg"
+img="jolca.webp"
 
 [[extra.org]]
 name="Vít Hanika"
 email="vit.hanika@gmail.com"
-img="vitek.jpg"
+img="vitek.webp"
 
 [[extra.org]]
 name="Patrik Bak"
 email="patrik.bak.x@gmail.com"
-img="patrik.jpg"
+img="patrik.webp"
 
 [[extra.org]]
 name="Alica Dományová"
-img="alicka.jpg"
+img="alicka.webp"
 
 [[extra.org]]
 name="Lenka Poljaková"
-img="lenka.jpg"
+img="lenka.webp"
 
 [[extra.org]]
 name="Ema Čudaiová"
-img="ema.jpg"
+img="ema.webp"
 
 [[extra.org]]
 name="Adam Džavoronok"
-img="dzavo.jpg"
+img="dzavo.webp"
 
 [[extra.org]]
 name="Zdeněk Pezlar"
-img="zdenek.png"
+img="zdenek.webp"
 
 [[extra.org]]
 name="Martin Šindelář"
-img="macker.jpg"
+img="macker.webp"
 
 [[extra.org]]
 name="Matej Novota"
-img="novota.jpg"
+img="novota.webp"
 
 +++
