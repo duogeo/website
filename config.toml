@@ -15,6 +15,7 @@ build_search_index = false
 highlight_code = false
 
 [languages.en.translations]
+flag = "🇬🇧"
 teamheader = "Team"
 sum = "Total"
 
@@ -24,6 +25,7 @@ results = "This year"
 contact = "Contacts"
 
 [translations]
+flag = "🇨🇿"
 teamheader = "Tým"
 sum = "Součet"
 
