@@ -23,23 +23,24 @@ Here is an example of a task of medium difficulty for the **high school category
 	
 {% problem() %}
 We are given an acute-angled triangle $ABC$. On the ray opposite to ray $BC$ lies a point $P$ such that $|AB| = |BP|$. Analogously, on the ray opposite to ray $CB$ lies a point $Q$ such that $|AC| = |CQ|$.
-TO-DO
+Let $J$ denote the excenter of triangle $ABC$ corresponding to side $BC$, and let $D$ and $E$ be the points of tangency of this excircle with the lines $AB$ and $AC$, respectively.
+Assume that the rays opposite to the rays $DP$ and $EQ$ intersect at a point $F \neq J$. Prove that $AF \perp FJ$. 
 {% end %}
 
-## Pravidla během soutěže
+## Rules during the competition
 
-- Během prvních 30 minut je možné klást otázky k zadaní.
-- Týmy budou řešit buď v jedné alebo více místnostech. Prosíme o ohleduplnost, snažte se nenapovídat ani nerušit ostatní týmy. S účastníky mimo svoji dvojici vůbec nekomunikujte a neposlouchejte je.
-- V rámci své dvojice můžete volně komunikovat, předávat si pomůcky, náčrty, kusy řešení apod.
-- Řešení každé úlohy pište na samostatný list papíru, při použití více listů je očíslujte (v takovém případe na první stranu uveďte celkový počet stran). Každý papír označte jménem svého týmu.
-- Po konci časového limitu seřaďte svá řešení, zkontrolujte, že jsou vícestranná řešení očíslovaná, a odevzdejte každou úlohu na jí příslušnou hromádku.
-- V případě neodevzdání úlohy nám prosím <b>odevzdejte prázdný list</b> (abychom věděli, že se řešení neztratilo).
-- Každý tým dostane zadání spolu s papíry na sepisování řešení a dostatkem čistých papírů (lze požádat o další). 
-- Během soutěže **je povoleno** používat následující pomůcky:
-  - Psací a rýsovací potřeby (včetně úhloměru).
-  - Jídlo a pití.
-  - Mechanické hodinky.
-- Naopak, explicitně **zakázány** jsou následující předměty (mějte je schované a vypnuté v tašce):
-  - Všechna elektronická zařízení, včetně kalkulaček.
-  - Jakákoliv literatura, zápisky, tabulky, logaritmické pravítko.<
-  - Vlastní papíry, například čtverečkové.
+- During the first 30 minutes, it's possible to ask questions about the tasks.
+- Teams will solve the problems in one or more rooms. Please be considerate of others: try not to interrupt or disturb other teams. Do not communicate with or listen to participants outside your pair.
+- You can communicate frely within your pair, handing over tools, sketches, pieces of the solution, etc.
+- Write the solution to each problem on a separate sheet of paper, numbering them if you use multiple sheets (in which case, make sure to write the total number of pages on the first page). Label each sheet with your team's name.
+- As soon as time is up, sort your solutions, check that multi-sided solutions are numbered, and submit each task to its appropriate pile.
+- If there's a problem you don't want to submit, please **give us a blank sheet back** for that particular problem (that way, we'll know that the solution hasn't been lost).
+- Each team will receive the assignment, along with paper to write down the solutions, and enough blank paper (but additional paper can be requested if necessary).
+- The following equipment is **allowed** to be used during the competition:
+  - Writing and drawing supplies (including a protractor).
+  - Food and drinks.
+  - Mechanical watches.
+- On the other hand, the following items are explicitly **prohibited** (keep them hidden and turned off in your bag):
+  - All electronic devices, including calculators.
+  - Any sort of books/literature, notes, tables/cheat sheets, slide rules.
+  - Custom paper (such as grid, for example).
