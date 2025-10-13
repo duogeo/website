@@ -4,7 +4,7 @@
 <div class="flex">
   {% for org in page.extra.org %}
   <div class="contact-box">
-    <img src="/images/{{ org.img }}">
+    <img src="/images/{{ org.img }}" loading="lazy">
     <div class="contact">
       <h2> {{ org.name }} </h2>
       {% if org.email is defined %}<p>✉️ {{ org.email }}</p>{% endif %}
