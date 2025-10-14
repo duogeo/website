@@ -2,18 +2,19 @@
 template="results.html"
 +++
 
-## Zadání
+## Problem statements
 
-Kategorie ZŠ v češtině a slovenštině: [CZ](/zadani/ZS_CZ.pdf) / [SK](/zadani/ZS_SK.pdf).
-Vzorová řešení naleznete [zde](/zadani/ZS-riesenia.pdf)
+Elementary category in Czech and Slovak: [CZ](/zadani/ZS_CZ.pdf) / [SK](/zadani/ZS_SK.pdf).
+The official solutions can be found [here](/zadani/ZS-riesenia.pdf) (Czech only).
 
-Kategorie SŠ v češtině a slovenštině: [CZ](/zadani/SS_CZ.pdf) / [SK](/zadani/SS_SK.pdf).
-Vzorová řešení naleznete [zde](/zadani/SS-riesenia.pdf)
+High school category in Czech and Slovak: [CZ](/zadani/SS_CZ.pdf) / [SK](/zadani/SS_SK.pdf).
+The official solutions can be found [here](/zadani/SS-riesenia.pdf) (Czech only).
 
-## Výsledky SŠ
+
+## Results for the Elementary Category
 
 {{ results(file="ss.csv") }}
 
-## Výsledky ZŠ
+## Results for the High School Categoru
 
 {{ results(file="zs.csv") }}
