@@ -15,6 +15,6 @@ The official solutions can be found [here](/zadani/SS-riesenia.pdf) (Czech only)
 
 {{ results(file="ss.csv") }}
 
-## Results for the High School Categoru
+## Results for the High School Category
 
 {{ results(file="zs.csv") }}
