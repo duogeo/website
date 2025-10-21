@@ -22,6 +22,7 @@ sum = "Total"
 main = "Main page"
 about = "About us"
 results = "This year"
+archive = "Previous years"
 contact = "Contacts"
 
 [translations]
@@ -32,6 +33,7 @@ sum = "Součet"
 main = "Úvod"
 about = "O soutěži"
 results = "Aktuální ročník"
+archive = "Minulé ročníky"
 contact = "Kontakty"
 
 [extra]
