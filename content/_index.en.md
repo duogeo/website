@@ -5,9 +5,9 @@ template="index.html"
 register = "Register your team!"
 sponsors = "The competition was created in collaboration with"
 texts = [
-"For more information, read the section [About us](/rules)",
-"If you have any other questions, [contact](/contact) any one of us",
-"If all is clear, don't hesitate and [register](/register) now!"
+"For more information, read the section [About us](/en/rules)",
+"If you have any other questions, [contact](/en/contact) any one of us",
+"If all is clear, don't hesitate and [register](/en/register) now!"
 ]
 
 [[extra.boxes]]
