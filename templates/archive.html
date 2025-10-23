@@ -1,7 +1,12 @@
 {% extends "base.html" %}
 
 {% block content %}
-<div id="page-left">
-  {{ page.content | safe }}
+<div class="archive-box">
+  {% for year in page.extra.year %}
+  <a href="{{ get_url(path='@/results/'~year.year~'.md') }}" class="archivelink">
+    <div class="year">{{ year.year }}</div>
+    <div class="flags">{{ year.flags }}</div>
+  </a>
+  {% endfor %}
 </div>
 {% endblock content %}
