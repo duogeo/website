@@ -58,4 +58,35 @@ img="macker.webp"
 name="Matej Novota"
 img="novota.webp"
 
+[[extra.org]]
+name="Anna Trnková"
+img="blank.webp"
+
+[[extra.org]]
+name="David Hromádka"
+img="blank.webp"
+
+[[extra.org]]
+name="Jakub Krivošík"
+img="blank.webp"
+
+[[extra.org]]
+name="Ekaterina Danilina"
+img="blank.webp"
+
+[[extra.org]]
+name="Markéta Honsejková"
+img="blank.webp"
+
+[[extra.org]]
+name="Daniel Perout"
+img="blank.webp"
+
+[[extra.org]]
+name="Marek Valkovič"
+img="blank.webp"
+
+[[extra.org]]
+name="Michal Imrišek"
+img="blank.webp"
 +++
