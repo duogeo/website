@@ -20,8 +20,8 @@ items = [
 [[extra.boxes]]
 header = "Kdy?"
 items = [
-"**Neděle 9.2.2025** pro ZŠ",
-"**Neděle 16.2.2025** pro SŠ"
+"**Pátek 16.1.2026** pro ZŠ",
+"**Pátek 23.1.2026** pro SŠ"
 ]
 
 [[extra.boxes]]
