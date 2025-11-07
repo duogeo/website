@@ -3,11 +3,12 @@ template="index.html"
 
 [extra]
 register = "Zaregistruj svůj tým!"
+no_register = "Registrace zatím nebyla spuštěna."
 sponsors = "Soutěž vznikla ve spolupráci s"
 texts = [
-"Pro podrobnější informace si prečti sekci [O soutěži](/rules)",
+"Pro podrobnější informace si prečti sekci [O soutěži](/rules).",
 "Pokud máš další otázky, [kontaktuj](/contact) kohokoli z nás.",
-"Jestli je všechno jasné, tak neváhej a [registruj](/register)!"
+"Nevíš, co čekat? Podívej se na [minulé ročníky](/archive)."
 ]
 
 [[extra.boxes]]

@@ -3,11 +3,12 @@ template="index.html"
 
 [extra]
 register = "Register your team!"
+no_register = "The registration has not started yet."
 sponsors = "The competition was created in collaboration with"
 texts = [
-"For more information, read the section [About us](/en/rules)",
+"For more information, read the section [About us](/en/rules).",
 "If you have any other questions, [contact](/en/contact) any one of us",
-"If all is clear, don't hesitate and [register](/en/register) now!"
+"Don't know what to expect? Look at [previous years](/en/archive)."
 ]
 
 [[extra.boxes]]
