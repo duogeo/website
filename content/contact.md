@@ -72,7 +72,7 @@ img="blank.webp"
 
 [[extra.org]]
 name="Ekaterina Danilina"
-img="blank.webp"
+img="kata.webp"
 
 [[extra.org]]
 name="Markéta Honsejková"
@@ -89,4 +89,8 @@ img="blank.webp"
 [[extra.org]]
 name="Michal Imrišek"
 img="blank.webp"
+
+[[extra.org]]
+name="Carlos Martínez Quintero"
+img="carlos.webp"
 +++
