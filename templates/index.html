@@ -25,12 +25,9 @@
   </div>
 </div>
 
-<div style="text-align: center;">
-  <h2>{{ section.extra.no_register }}</h2>
+<div class="big-button-wrapper">
+  <a href="{{ get_url(path='@/register.md', lang=lang)}}" class="big-button">{{ section.extra.register }}</a>
 </div>
-<!--<div class="big-button-wrapper">
-  <a href="./register.html" class="big-button">{{ section.extra.register }}</a>
-</div>-->
 <h2>{{ section.extra.sponsors }}</h2>
 <div class="flex logos">
   <div class="box-element">
