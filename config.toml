@@ -25,6 +25,11 @@ results = "This year"
 archive = "Previous years"
 contact = "Contacts"
 
+elementary = "Elementary"
+high_school = "High school"
+registered_prague = "Number of registered teams in Prague"
+registered_bratislava = "Number of registered teams in Bratislava"
+
 [translations]
 flag = "🇨🇿"
 teamheader = "Tým"
@@ -35,6 +40,11 @@ about = "O soutěži"
 results = "Aktuální ročník"
 archive = "Minulé ročníky"
 contact = "Kontakty"
+
+elementary = "Základní škola"
+high_school = "Střední škola"
+registered_prague = "Počet registrovaných týmů v Praze"
+registered_bratislava = "Počet registrovaných týmů v Bratislavě"
 
 [extra]
 # Put all your custom variables here
