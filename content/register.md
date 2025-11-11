@@ -18,3 +18,4 @@ V **Bratislavě** se soutěž koná v budově FMFI UK na adrese **Mlynská dolin
 	  
 K registraci vyplňte následující formulář. Za každý tým ho vyplňte prosím nejvýše jednou. **Registrujte se do 9.1.2025.**
 	
+{{ form() }}

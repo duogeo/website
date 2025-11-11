@@ -1,0 +1,50 @@
+<form>
+  <h2>Registrační formulář</h2>
+  
+  <label for="teamname">Název týmu</label>
+  <input type="text" id="teamname" name="teamname" required>
+  <label for="place">Soutěžní místo</label>
+  <div class="choice">
+    <input type="radio" id="prague" name="place" required>
+    <label for="prague">Praha</label>
+    <input type="radio" id="bratislava" name="place" required>
+    <label for="bratislava">Bratislava</label>
+    <input type="radio" id="krakow" name="place" required>
+    <label for="krakow">Krakow</label>
+  </div>
+  <label for="category">Kategorie</label>
+  <div class="choice">
+    <input type="radio" id="ZS" name="category" required>
+    <label for="ZS">Základní škola</label>
+    <input type="radio" id="SS" name="category" required>
+    <label for="SS">Střední škola</label>
+  </div>
+  
+  <div class="contestant">
+    <div class="contestantform">
+      <label class="contestantheader">1. Účastník</label>
+      <label for="name1">Jméno a příjmení</label>
+      <input type="text" id="name1" name="name1" required>
+      <label for="email1">Email</label>
+      <input type="text" id="email1" name="email1" required>
+      <label for="school1">Škola</label>
+      <input type="text" id="school1" name="school1" required>
+      <label for="class1">Třída</label>
+      <input type="text" id="class1" name="class1" required>
+    </div>
+    <div class="contestantform">
+      <label class="contestantheader">2. Účastník</label>
+      <label for="name2">Jméno a příjmení</label>
+      <input type="text" id="name2" name="name2" required>
+      <label for="email2">Email</label>
+      <input type="text" id="email2" name="email2" required>
+      <label for="school2">Škola</label>
+      <input type="text" id="school2" name="school2" required>
+      <label for="class2">Třída</label>
+      <input type="text" id="class2" name="class2" required>
+    </div>
+  </div>
+
+  <input type="submit" value="Registruj" class="registerbutton">
+
+</form> 
