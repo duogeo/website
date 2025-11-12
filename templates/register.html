@@ -4,59 +4,6 @@
 
 <div id="page-left">
   {{ page.content | safe }}
-
-  <table>
-    <tr>
-      <th colspan="2">{{ trans(key='registered_prague', lang=lang) }}</th>
-    </tr>
-    <tr>
-      <td>{{ trans(key='elementary', lang=lang) }}</td>
-      <td id="zs-praha-data" class="right"><img class="loader" src="./css-loader.gif"></td>
-    </tr>
-    <tr>
-      <td>{{ trans(key='high_school', lang=lang) }}</td>
-      <td id="ss-praha-data" class="right"><img class="loader" src="./css-loader.gif"></td>
-    </tr>
-    <tr>
-      <th colspan="2">{{ trans(key='registered_bratislava', lang=lang) }}</th>
-    </tr>
-    <tr>
-      <td>{{ trans(key='elementary', lang=lang) }}</td>
-      <td id="zs-blava-data" class="right"><img class="loader" src="./css-loader.gif"></td>
-    </tr>
-    <tr>
-      <td>{{ trans(key='high_school', lang=lang) }}</td>
-      <td id="ss-blava-data" class="right"><img class="loader" src="./css-loader.gif"></td>
-    </tr>
-  </table>
-  <script>
-    const csvUrl = "https://docs.google.com/spreadsheets/d/e/2PACX-1vTCtLFel5a4IrXiGeM64cBNZvl83XJNhcEF85RubgM3I00_fpB1i5h9jfqGPcGs3SRWapLnmTDYDM1T/pub?gid=135760891&single=true&output=csv";
-
-    function fetchSheetData() {
-	fetch(csvUrl, {cache: "no-store"})
-	    .then((response) => {
-		if (!response.ok) {
-		    throw new Error("Network response was not ok");
-		}
-		return response.text();
-	    })
-	    .then((csv) => {
-        	const values = csv.trim().split("\n").map((row) =>  row.split(",")[0]);
-		document.getElementById("zs-praha-data").innerHTML = values[0];
-		document.getElementById("zs-blava-data").innerHTML = values[1];
-		document.getElementById("ss-praha-data").innerHTML = values[2];
-		document.getElementById("ss-blava-data").innerHTML = values[3];
-	    })
-	    .catch((error) => {
-		console.error("Error fetching sheet data:", error);
-	    });
-    }
-    fetchSheetData();
-  </script>
-</div>
-
-<div class="center">
-	<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeSALXc3yUHDUog1lp-fcNrcKDi3TT_vbw8FcSgJi2c8tq6fw/viewform?embedded=true"></iframe>
 </div>
 
 {% endblock content %}
