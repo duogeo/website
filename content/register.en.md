@@ -4,7 +4,7 @@ template="register.html"
 
 ## This year 
 
-Capacity for each category and place is **60 teams.**
+Capacity for each category and place is **50 teams.**
 
 The competition for **elementary category** will take place on Friday **16.1.2026** from **11:00 to 16:00.** 
 
@@ -15,6 +15,9 @@ In **Prague** the competition takes place at MS MFF UK at **Malostranské námě
 In **Bratislava** the competition takes place at FMFI UK at **Mlynská dolina pavilon F1, 842 48 Bratislava.**
 
 ## Registration 
+
+{{ registertable() }}
 	  
 Fill out the following form to register. Each team should fill it out only once. **Registration open until 9.1.2026.**
-	
+
+{{ form() }}
