@@ -4,16 +4,13 @@
       <th>{{ trans(key='elementary', lang=lang) }}</th>
       <th>{{ trans(key='high_school', lang=lang) }}</th>
     </tr>
+    {% for place in page.extra.place %}
     <tr>
-      <td>Praha</td>
-      <td id="zs-prague" class="left"><img class="loader" src="./css-loader.gif"> / 50</td>
-      <td id="ss-prague" class="left"><img class="loader" src="./css-loader.gif"> / 50</td>
+      <td>{{ place.name }}</td>
+      <td id="{{ place.elem_id }}" class="left"><img class="loader" src="./css-loader.gif"> / {{ place.elem_capacity }}</td>
+      <td id="{{ place.high_id }}" class="left"><img class="loader" src="./css-loader.gif"> / {{ place.high_capacity }}</td>
     </tr>
-    <tr>
-      <td>Bratislava</td>
-      <td id="zs-bratislava" class="left"><img class="loader" src="./css-loader.gif"> / 50</td>
-      <td id="ss-bratislava" class="left"><img class="loader" src="./css-loader.gif"> / 50</td>
-    </tr>
+    {% endfor %}
   </table>
   <script>
     const csvUrl = "https://docs.google.com/spreadsheets/d/e/2PACX-1vTCtLFel5a4IrXiGeM64cBNZvl83XJNhcEF85RubgM3I00_fpB1i5h9jfqGPcGs3SRWapLnmTDYDM1T/pub?gid=135760891&single=true&output=csv";
