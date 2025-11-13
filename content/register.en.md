@@ -1,5 +1,23 @@
 +++
 template="register.html"
+
+[extra]
+[[extra.place]]
+name = "Prague"
+id = "prague"
+elem_id = "zs-prague"
+elem_capacity = "50"
+high_id = "ss-prague"
+high_capacity = "50"
+
+[[extra.place]]
+name = "Bratislava"
+id = "bratislava"
+elem_id = "zs-bratislava"
+elem_capacity = "50"
+high_id = "ss-bratislava"
+high_capacity = "50"
+
 +++
 
 ## This year 

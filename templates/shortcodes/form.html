@@ -5,10 +5,10 @@
   <input type="text" id="teamname" name="teamname" required>
   <label for="place">{{ trans(key='comp_place', lang=lang) }}</label>
   <div class="choice">
-    <input type="radio" id="prague" name="place" value="prague" required>
-    <label for="prague">Praha</label>
-    <input type="radio" id="bratislava" name="place" value="bratislava" required>
-    <label for="bratislava">Bratislava</label>
+    {% for place in page.extra.place %}
+      <input type="radio" id="{{ place.id }}" name="place" value="{{ place.id }}" required>
+      <label for="{{ place.id }}">{{ place.name }}</label> 
+    {% endfor %}
   </div>
   <label for="category">{{ trans(key='category', lang=lang) }}</label>
   <div class="choice">
