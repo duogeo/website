@@ -1,48 +1,48 @@
 <form action="https://register.duogeo.cz/" method="POST">
-  <h2>Registrační formulář</h2>
+  <h2>{{ trans(key='register_form', lang=lang) }}</h2>
   
-  <label for="teamname">Název týmu</label>
+  <label for="teamname">{{ trans(key='team_name', lang=lang) }}</label>
   <input type="text" id="teamname" name="teamname" required>
-  <label for="place">Soutěžní místo</label>
+  <label for="place">{{ trans(key='comp_place', lang=lang) }}</label>
   <div class="choice">
     <input type="radio" id="prague" name="place" value="prague" required>
     <label for="prague">Praha</label>
     <input type="radio" id="bratislava" name="place" value="bratislava" required>
     <label for="bratislava">Bratislava</label>
   </div>
-  <label for="category">Kategorie</label>
+  <label for="category">{{ trans(key='category', lang=lang) }}</label>
   <div class="choice">
     <input type="radio" id="ZS" name="category" value="zs" required>
-    <label for="ZS">Základní škola</label>
+    <label for="ZS">{{ trans(key='elementary', lang=lang) }}</label>
     <input type="radio" id="SS" name="category" value="ss" required>
-    <label for="SS">Střední škola</label>
+    <label for="SS">{{ trans(key='high_school', lang=lang) }}</label>
   </div>
   
   <div class="contestant">
     <div class="contestantform">
-      <label class="contestantheader">1. Účastník</label>
-      <label for="name1">Jméno a příjmení</label>
+      <label class="contestantheader">1. {{ trans(key='participant', lang=lang) }}</label>
+      <label for="name1">{{ trans(key='full_name', lang=lang) }}</label>
       <input type="text" id="name1" name="name1" required>
       <label for="email1">Email</label>
       <input type="text" id="email1" name="email1" required>
-      <label for="school1">Škola</label>
+      <label for="school1">{{ trans(key='school', lang=lang) }}</label>
       <input type="text" id="school1" name="school1" required>
-      <label for="class1">Třída</label>
+      <label for="class1">{{ trans(key='class', lang=lang) }}</label>
       <input type="text" id="class1" name="class1" required>
     </div>
     <div class="contestantform">
-      <label class="contestantheader">2. Účastník</label>
-      <label for="name2">Jméno a příjmení</label>
+      <label class="contestantheader">2. {{ trans(key='participant', lang=lang) }}</label>
+      <label for="name2">{{ trans(key='full_name', lang=lang) }}</label>
       <input type="text" id="name2" name="name2" required>
       <label for="email2">Email</label>
       <input type="text" id="email2" name="email2" required>
-      <label for="school2">Škola</label>
+      <label for="school2">{{ trans(key='school', lang=lang) }}</label>
       <input type="text" id="school2" name="school2" required>
-      <label for="class2">Třída</label>
+      <label for="class2">{{ trans(key='class', lang=lang) }}</label>
       <input type="text" id="class2" name="class2" required>
     </div>
   </div>
 
-  <input type="submit" value="Registruj" class="registerbutton">
+  <input type="submit" value="{{ trans(key='register', lang=lang) }}" class="registerbutton">
 
 </form> 

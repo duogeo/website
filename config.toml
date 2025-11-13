@@ -27,8 +27,17 @@ contact = "Contacts"
 
 elementary = "Elementary"
 high_school = "High school"
-registered_prague = "Number of registered teams in Prague"
-registered_bratislava = "Number of registered teams in Bratislava"
+no_registered = "Number of registered teams"
+
+register_form = "Registration form"
+team_name = "Team name"
+comp_place = "Competition place"
+category = "Category"
+full_name = "Full name"
+school = "School"
+class = "Class"
+participant = "Participant"
+register = "Register"
 
 [translations]
 flag = "🇨🇿"
@@ -43,8 +52,17 @@ contact = "Kontakty"
 
 elementary = "Základní škola"
 high_school = "Střední škola"
-registered_prague = "Počet registrovaných týmů v Praze"
-registered_bratislava = "Počet registrovaných týmů v Bratislavě"
+no_registered = "Počet registrovaných týmů"
+
+register_form = "Registrační formulář"
+team_name = "Název týmu"
+comp_place = "Soutěžní místo"
+category = "Kategorie"
+full_name = "Jméno a příjmení"
+school = "Škola"
+class = "Třída"
+participant = "Účastník"
+register = "Registruj"
 
 [extra]
 # Put all your custom variables here
