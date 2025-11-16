@@ -52,12 +52,14 @@
         <li><a class="menu-group" href="{{ get_url(path='@/contact.md',lang=lang) }}">
             <p>{{ trans(key='contact', lang=lang) }}</p>
         </a></li>
-	<div id="languages">
-	  {% set translations = resource | get(key="translations") %}
-	  {% for translation in translations | sort(attribute="lang") %}
-          <a class="lang-link" href="{{ translation.permalink }}">{{ trans(key='flag', lang=translation.lang) }}</a>
-	  {% endfor %}	  
-	</div>
+        <div id="languages">
+          {% set translations = resource | get(key="translations") %}
+          {% for translation in translations | sort(attribute="lang") %}
+            <a class="lang-link" href="{{ translation.permalink }}">
+              <img src="{{ get_url(path=trans(key='flag', lang=translation.lang)) }}" style="height:1.5em;width:100%">
+            </a>
+          {% endfor %}	  
+        </div>
       </ul>
     </nav>
     

@@ -5,5 +5,8 @@ template="archive.html"
 
 [[extra.year]]
 year="2025"
-flags="🇨🇿🇸🇰"
+flags= [
+    "flags/cz.svg",
+    "flags/sk.svg"
+]
 +++
