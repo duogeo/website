@@ -24,7 +24,7 @@ high_capacity = "50"
 
 Capacity for each category and place is **50 teams.**
 
-The competition for **elementary category** will take place on Friday **16.1.2026** from **11:00 to 16:00.** 
+The competition for **elementary category** will take place on Friday **16.1.2026** from **11:00 to 15:00.** 
 
 The competition for **high school category** will take place on Friday **23.1.2026** from **11:00 to 16:00.** 
 	

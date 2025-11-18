@@ -24,7 +24,7 @@ high_capacity = "50"
 
 Kapacita je pro každou kategorii a místo konání **50 týmů.**
 
-Soutěž **kategorie ZŠ** bude probíhat v pátek **16.1.2026** od **11:00 do 16:00 hodin.**
+Soutěž **kategorie ZŠ** bude probíhat v pátek **16.1.2026** od **11:00 do 15:00 hodin.**
 
 Soutěž **kategorie SŠ** bude probíhat v pátek **23.1.2026** od **11:00 do 16:00 hodin.**
 	
