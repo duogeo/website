@@ -16,8 +16,8 @@
     function fetchRegisterData() {
 	const tasks = [
 	    {% for place in page.extra.place %}
-            { url: 'https://register.duogeo.cz/{{ place.elem_id }}', element: '{{ place.elem_id }}' },
-	    { url: 'https://register.duogeo.cz/{{ place.high_id }}', element: '{{ place.high_id }}' },
+            { url: 'https://register.duogeo.cz/{{ place.elem_id }}', element: '{{ place.elem_id }}', capacity: '{{ place.elem_capacity }}'},
+	    { url: 'https://register.duogeo.cz/{{ place.high_id }}', element: '{{ place.high_id }}', capacity: '{{ place.high_capacity }}'},
 	    {% endfor %}
 	];
 	
@@ -25,7 +25,7 @@
             fetch(task.url)
 	        .then(result => result.text())
 		.then(value => {
-                    document.getElementById(task.element).innerHTML = value;
+                    document.getElementById(task.element).innerHTML = value + " / " + task.capacity;
 		})
 		.catch(() => {
 		    console.log("Error loading data");
