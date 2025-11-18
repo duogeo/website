@@ -1,5 +1,5 @@
 +++
-template="register.html"
+template="current.html"
 
 [extra]
 [[extra.place]]
