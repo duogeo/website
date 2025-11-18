@@ -1,6 +1,6 @@
 <form action="https://register.duogeo.cz/" method="POST">
   <h2>{{ trans(key='register_form', lang=lang) }}</h2>
-  
+  <input type="text" id="lang" name="lang" value="{{ lang }}" hidden></label>
   <label for="teamname">{{ trans(key='team_name', lang=lang) }}</label>
   <input type="text" id="teamname" name="teamname" required>
   <label for="place">{{ trans(key='comp_place', lang=lang) }}</label>

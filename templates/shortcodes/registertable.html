@@ -7,32 +7,30 @@
     {% for place in page.extra.place %}
     <tr>
       <td>{{ place.name }}</td>
-      <td id="{{ place.elem_id }}" class="left"><img class="loader" src="./css-loader.gif"> / {{ place.elem_capacity }}</td>
-      <td id="{{ place.high_id }}" class="left"><img class="loader" src="./css-loader.gif"> / {{ place.high_capacity }}</td>
+      <td id="{{ place.elem_id }}" class="left"><img class="loader" src="{{ get_url(path='css-loader.gif') }}"> / {{ place.elem_capacity }}</td>
+      <td id="{{ place.high_id }}" class="left"><img class="loader" src="{{ get_url(path='css-loader.gif') }}"> / {{ place.high_capacity }}</td>
     </tr>
     {% endfor %}
   </table>
   <script>
-    const csvUrl = "https://docs.google.com/spreadsheets/d/e/2PACX-1vTCtLFel5a4IrXiGeM64cBNZvl83XJNhcEF85RubgM3I00_fpB1i5h9jfqGPcGs3SRWapLnmTDYDM1T/pub?gid=135760891&single=true&output=csv";
-
-    function fetchSheetData() {
-	fetch(csvUrl, {cache: "no-store"})
-	    .then((response) => {
-		if (!response.ok) {
-		    throw new Error("Network response was not ok");
-		}
-		return response.text();
-	    })
-	    .then((csv) => {
-        	const values = csv.trim().split("\n").map((row) =>  row.split(",")[0]);
-		document.getElementById("zs-prague").innerHTML = values[0] + " / 50";
-		document.getElementById("zs-bratislava").innerHTML = values[1] + " / 50";
-		document.getElementById("ss-prague").innerHTML = values[2] + " / 50";
-		document.getElementById("ss-bratislava").innerHTML = values[3] + " / 50";
-	    })
-	    .catch((error) => {
-		console.error("Error fetching sheet data:", error);
-	    });
+    function fetchRegisterData() {
+	const tasks = [
+	    {% for place in page.extra.place %}
+            { url: 'https://register.duogeo.cz/{{ place.elem_id }}', element: '{{ place.elem_id }}' },
+	    { url: 'https://register.duogeo.cz/{{ place.high_id }}', element: '{{ place.high_id }}' },
+	    {% endfor %}
+	];
+	
+	tasks.forEach(task => {
+            fetch(task.url)
+		.then(value => {
+                    document.getElementById(task.element).innerHTML = value.text();
+		})
+		.catch(() => {
+		    console.log("Error loading data");
+		});
+	});
     }
-    fetchSheetData();
+    
+    fetchRegisterData();
   </script>
