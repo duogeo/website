@@ -15,6 +15,10 @@
   {% endfor %}
 </div>
 
+<div class="big-button-wrapper">
+  <a href="{{ get_url(path='@/current.md', lang=lang)}}" class="big-button">{{ section.extra.register }}</a>
+</div>
+
 <div class="colored-bg">
   <div class="flex bottom-info">
     {% for text in section.extra.texts %}
@@ -25,9 +29,6 @@
   </div>
 </div>
 
-<div class="big-button-wrapper">
-  <a href="{{ get_url(path='@/current.md', lang=lang)}}" class="big-button">{{ section.extra.register }}</a>
-</div>
 <h2>{{ section.extra.sponsors }}</h2>
 <div class="flex logos">
   <div class="box-element">
