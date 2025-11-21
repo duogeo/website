@@ -32,6 +32,8 @@ V **Praze** se soutěž koná v budově MS MFF UK na adrese **Malostranské nám
 
 V **Bratislavě** se soutěž koná v budově FMFI UK na adrese **Mlynská dolina pavilon F1, 842 48 Bratislava.**
 
+Registrace pro **Polsko** a **Chorvatsko** začne již brzy.
+
 ## Registrace 
 	  
 {{ registertable() }}
