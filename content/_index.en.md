@@ -9,7 +9,7 @@ texts = [
 "For more information, read the section [About us](/en/rules).",
 "If you have any other questions, [contact](/en/contact) any one of us",
 "Don't know what to expect? Look at [previous years](/en/archive).",
-"We have [Instagram](https://www.instagram.com/duogeo.cz/) and [Discord](https://discord.gg/GZJjCvTVwJ) (CZ and SK), so don't hesitate to join!"
+"We have [Discord](https://discord.gg/GZJjCvTVwJ) (CZ and SK), so don't hesitate to join!"
 ]
 
 [[extra.boxes]]

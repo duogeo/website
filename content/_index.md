@@ -9,7 +9,7 @@ texts = [
 "Pro podrobnější informace si prečti sekci [O soutěži](/rules).",
 "Pokud máš další otázky, [kontaktuj](/contact) kohokoli z nás.",
 "Nevíš, co čekat? Podívej se na [minulé ročníky](/archive).",
-"Máme [Instagram](https://www.instagram.com/duogeo.cz/) a [Discord](https://discord.gg/GZJjCvTVwJ), tak se neváhej připojit!"
+"Máme [Discord](https://discord.gg/GZJjCvTVwJ), tak se neváhej připojit!"
 ]
 
 [[extra.boxes]]
