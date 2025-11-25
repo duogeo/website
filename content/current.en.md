@@ -39,7 +39,7 @@ In **Prague** the competition takes place at MS MFF UK at **Malostranské námě
 
 In **Bratislava** the competition takes place at FMFI UK at **Mlynská dolina pavilon F1, 842 48 Bratislava.**
 
-The registration for **Poland** and **Croatia** will open soon.
+The registration for **Croatia** will open soon.
 
 ## Registration 
 
