@@ -18,11 +18,18 @@ elem_capacity = "50"
 high_id = "ss-bratislava"
 high_capacity = "50"
 
+[[extra.place]]
+name = "Kraków"
+id = "krakow"
+elem_id = "zs-krakow"
+elem_capacity = "20"
+high_id = "ss-krakow"
+high_capacity = "20"
 +++
 
 ## This year 
 
-Capacity for each category and place is **50 teams.**
+Capacity for each competition place is limited.
 
 The competition for **elementary category** will take place on Friday **16.1.2026** from **11:00 to 15:00.** 
 

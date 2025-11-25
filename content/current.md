@@ -18,11 +18,18 @@ elem_capacity = "50"
 high_id = "ss-bratislava"
 high_capacity = "50"
 
+[[extra.place]]
+name = "Kraków"
+id = "krakow"
+elem_id = "zs-krakow"
+elem_capacity = "20"
+high_id = "ss-krakow"
+high_capacity = "20"
 +++
 
 ## Aktuální ročník 
 
-Kapacita je pro každou kategorii a místo konání **50 týmů.**
+Maxímální kapacita je pro každé soutěžní místo omezena.
 
 Soutěž **kategorie ZŠ** bude probíhat v pátek **16.1.2026** od **11:00 do 15:00 hodin.**
 
