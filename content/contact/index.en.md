@@ -3,6 +3,28 @@ template="contact.html"
 
 [extra]
 
+email="info@duogeo.cz"
+
+[[extra.country]]
+name="Czech republic"
+email="info.cz@duogeo.cz"
+flag="flags/cz.svg"
+
+[[extra.country]]
+name="Slovakia"
+email="info.sk@duogeo.cz"
+flag="flags/sk.svg"
+
+[[extra.country]]
+name="Poland"
+email="info.pl@duogeo.cz"
+flag="flags/pl.svg"
+
+[[extra.country]]
+name="Croatia"
+email="info.hr@duogeo.cz"
+flag="flags/hr.svg"
+
 [[extra.org]]
 name="Michal Pecho"
 email="michalpecho19@gmail.com"

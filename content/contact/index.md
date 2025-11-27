@@ -3,6 +3,28 @@ template="contact.html"
 
 [extra]
 
+email="info@duogeo.cz"
+
+[[extra.country]]
+name="Česká republika"
+email="info.cz@duogeo.cz"
+flag="flags/cz.svg"
+
+[[extra.country]]
+name="Slovenská republika"
+email="info.sk@duogeo.cz"
+flag="flags/sk.svg"
+
+[[extra.country]]
+name="Polsko"
+email="info.pl@duogeo.cz"
+flag="flags/pl.svg"
+
+[[extra.country]]
+name="Chorvatsko"
+email="info.hr@duogeo.cz"
+flag="flags/hr.svg"
+
 [[extra.org]]
 name="Michal Pecho"
 email="michalpecho19@gmail.com"
@@ -94,3 +116,4 @@ img="blank.webp"
 name="Carlos Martínez Quintero"
 img="carlos.webp"
 +++
+
