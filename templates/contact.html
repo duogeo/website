@@ -7,7 +7,7 @@
     <div class="contact">
       <h2> Duogeo </h2>
       <img src="{{ get_url(path='flags/duogeo.svg') }}">
-      <p>✉️ <a href="mailto:{{ page.extra.email }}">{{ page.extra.email }}</a></p>
+      <p>✉️&nbsp;<a href="mailto:{{ page.extra.email }}">{{ page.extra.email }}</a></p>
     </div>
   </div>
 </div>
@@ -18,7 +18,7 @@
     <div class="contact">
       <h2> {{ country.name }} </h2>
       <img src="{{ get_url(path=country.flag) }}">
-      <p>✉️ <a href="mailto:{{ country.email }}">{{ country.email }}</a></p>
+      <p>✉️&nbsp;<a href="mailto:{{ country.email }}">{{ country.email }}</a></p>
     </div>
 </div>
   {% endfor %}
@@ -32,7 +32,7 @@
     <img src="{{ get_url(path='/images/'~org.img) }}" loading="lazy">
     <div class="contact">
       <h2> {{ org.name }} </h2>
-      {% if org.email is defined %}<p>✉️ {{ org.email }}</p>{% endif %}
+      {% if org.email is defined %}<p>✉️&nbsp;{{ org.email }}</p>{% endif %}
       {% if org.role is defined %} <p><b>{{ org.role }}</b></p> {% endif %}
     </div>
 </div>
