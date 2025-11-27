@@ -3,7 +3,7 @@
 {% block content %}
 <div class="archive-box">
   {% for year in page.extra.year %}
-  <a href="{{ get_url(path='@/results/'~year.year~'.md', lang=lang) }}" class="archivelink">
+  <a href="{{ get_url(path='@/results/'~year.year~'/index.md', lang=lang) }}" class="archivelink">
     <div class="year">{{ year.year }}</div>
     <div class="flags">
       {% for flag in year.flags %}

@@ -13,10 +13,10 @@ High school category in Czech and Slovak: [CZ](/zadani/2025/SS_CZ.pdf) / [SK](/z
 The official solutions can be found [here](/zadani/2025/SS-riesenia.pdf) (Czech only).
 
 
-## Results for the Elementary Category
+## Results for the High School Category
 
 {{ results(file="2025/ss.csv") }}
 
-## Results for the High School Category
+## Results for the Elementary Category
 
 {{ results(file="2025/zs.csv") }}
