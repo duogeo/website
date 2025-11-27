@@ -39,6 +39,8 @@ In **Prague** the competition takes place at MS MFF UK at **Malostranské námě
 
 In **Bratislava** the competition takes place at FMFI UK at **Mlynská dolina pavilon F1, 842 48 Bratislava.**
 
+In **Kraków** the competition takes place at Faculty of Mathematics and Computer Science, Jagiellonian University at **ul. prof. Stanisława Łojasiewicza 6, 30-348 Kraków.**
+
 The registration for **Croatia** will open soon.
 
 ## Registration 
