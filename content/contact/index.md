@@ -38,11 +38,6 @@ img="radek.webp"
 role="Hlavní organizátor"
 
 [[extra.org]]
-name="Jolana Štraitová"
-email="jol.straitova@gmail.com"
-img="jolca.webp"
-
-[[extra.org]]
 name="Vít Hanika"
 email="vit.hanika@gmail.com"
 img="vitek.webp"
@@ -71,10 +66,6 @@ img="dzavo.webp"
 [[extra.org]]
 name="Zdeněk Pezlar"
 img="zdenek.webp"
-
-[[extra.org]]
-name="Martin Šindelář"
-img="macker.webp"
 
 [[extra.org]]
 name="Matej Novota"
