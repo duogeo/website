@@ -39,6 +39,31 @@ class = "Class"
 participant = "Participant"
 register = "Register"
 
+[languages.pl.translations]
+flag = "flags/pl.svg"
+teamheader = "Drużyna"
+sum = "Suma"
+
+main = "Strona główna"
+about = "O nas"
+results = "Bieżąca edycja"
+archive = "Poprzednie lata"
+contact = "Kontakt"
+
+elementary = "Szkoły podstawowe"
+high_school = "Szkoły ponadpodstawowe"
+no_registered = "Liczba zgłoszonych drużyn"
+
+register_form = "Formularz rejestracyjny"
+team_name = "Nazwa drużyny"
+comp_place = "Miejsce zawodów"
+category = "Kategoria"
+full_name = "Imię i nazwisko"
+school = "Szkoła"
+class = "Klasa"
+participant = "Zawodnik"
+register = "Zarejestruj"
+
 [translations]
 flag = "flags/cz.svg"
 teamheader = "Tým"

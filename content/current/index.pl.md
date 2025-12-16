@@ -1,0 +1,52 @@
++++
+template="current.html"
+
+[extra]
+[[extra.place]]
+name = "Praga"
+id = "prague"
+elem_id = "zs-prague"
+elem_capacity = "50"
+high_id = "ss-prague"
+high_capacity = "50"
+
+[[extra.place]]
+name = "Bratysława"
+id = "bratislava"
+elem_id = "zs-bratislava"
+elem_capacity = "50"
+high_id = "ss-bratislava"
+high_capacity = "50"
+
+[[extra.place]]
+name = "Kraków"
+id = "krakow"
+elem_id = "zs-krakow"
+elem_capacity = "20"
+high_id = "ss-krakow"
+high_capacity = "20"
++++
+
+## Bieżąca edycja
+
+Liczba miejsc w każdym mieście jest ograniczona.
+
+Zawody dla szkół **podstawowych odbędą** się w piątek **16.1.2026** od godziny **11:00 do 15:00**.
+
+Zawody dla szkół **ponadpodstawowych odbędą** się w piątek **23.1.2026** od godziny **11:00 do 16:00**.
+
+W **Pradze** miejsce zawodów to MS MFF UK, **Malostranské náměstí 2/25, 118 00 Praha 1**.
+
+W **Bratysławie** miejsce zawodów to FMFI UK, **Mlynská dolina pavilon F1, 842 48 Bratislava**.
+
+W **Krakowie** miejsce zawodów to WMiI UJ, **ul. Prof. S. Łojasiewicza 6, 30-348 Kraków**.
+
+Rejestracja dla **Chorwacji** będzie niedługo otwarta.
+
+## Rejestracja
+
+{{ registertable() }}
+	  
+W celu zarejestrowania drużyny wypełnij poniższy formularz. Każda drużyna powinna go wypełnić tylko raz. Rejestracja będzie otwarta do **9.1.2026**.
+
+{{ form() }}
