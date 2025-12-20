@@ -25,6 +25,14 @@ elem_id = "zs-krakow"
 elem_capacity = "20"
 high_id = "ss-krakow"
 high_capacity = "20"
+
+[[extra.place]]
+name = "Záhřeb"
+id = "zagreb"
+elem_id = "zs-zagreb"
+elem_capacity = "10"
+high_id = "ss-zagreb"
+high_capacity = "10"
 +++
 
 ## Aktuální ročník 
@@ -41,7 +49,7 @@ V **Bratislavě** se soutěž koná v budově FMFI UK na adrese **Mlynská dolin
 
 V **Krakově** se soutěž koná v budově fakulty matematiky a informatiky Jagelonské University na adrese **ul. prof. Stanisława Łojasiewicza 6, 30-348 Kraków.**
 
-Registrace pro **Chorvatsko** začne již brzy.
+V **Chorvatsku** se soutěž koná v **Záhřebu**, přesnější místo bude specifikováno.
 
 ## Registrace 
 	  

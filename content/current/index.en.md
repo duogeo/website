@@ -25,6 +25,14 @@ elem_id = "zs-krakow"
 elem_capacity = "20"
 high_id = "ss-krakow"
 high_capacity = "20"
+
+[[extra.place]]
+name = "Zagreb"
+id = "zagreb"
+elem_id = "zs-zagreb"
+elem_capacity = "10"
+high_id = "ss-zagreb"
+high_capacity = "10"
 +++
 
 ## This year 
@@ -41,7 +49,7 @@ In **Bratislava** the competition takes place at FMFI UK at **Mlynská dolina pa
 
 In **Kraków** the competition takes place at Faculty of Mathematics and Computer Science, Jagiellonian University at **ul. prof. Stanisława Łojasiewicza 6, 30-348 Kraków.**
 
-The registration for **Croatia** will open soon.
+In **Croatia**, the competition takes place in **Zagreb**. The exact location will be specified later.
 
 ## Registration 
 

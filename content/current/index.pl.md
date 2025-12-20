@@ -25,6 +25,14 @@ elem_id = "zs-krakow"
 elem_capacity = "20"
 high_id = "ss-krakow"
 high_capacity = "20"
+
+[[extra.place]]
+name = "Zagrzeb"
+id = "zagreb"
+elem_id = "zs-zagreb"
+elem_capacity = "10"
+high_id = "ss-zagreb"
+high_capacity = "10"
 +++
 
 ## Bieżąca edycja
@@ -41,7 +49,7 @@ W **Bratysławie** miejsce zawodów to FMFI UK, **Mlynská dolina pavilon F1, 84
 
 W **Krakowie** miejsce zawodów to WMiI UJ, **ul. Prof. S. Łojasiewicza 6, 30-348 Kraków**.
 
-Rejestracja dla **Chorwacji** będzie niedługo otwarta.
+W **Chorwacji** miejscem zawodów jest **Zagrzeb**. Dokładne miejsce zostanie określone później.
 
 ## Rejestracja
 
