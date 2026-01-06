@@ -16,7 +16,7 @@ texts = [
 header = "Kde?"
 items = [
 "{{ flag(path='flags/cz.svg') }} **Praha, Česko**",
-"{{ flag(path='flags/sk.svg') }} **Bratislava, Slovesnko**",
+"{{ flag(path='flags/sk.svg') }} **Bratislava, Slovensko**",
 "{{ flag(path='flags/pl.svg') }} **Krakov, Polsko**",
 "{{ flag(path='flags/hr.svg') }} **Záhřeb, Chorvatsko**"
 ]
