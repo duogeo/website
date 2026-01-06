@@ -6,17 +6,17 @@ template="current.html"
 name = "Prague"
 id = "prague"
 elem_id = "zs-prague"
-elem_capacity = "50"
+elem_capacity = "60"
 high_id = "ss-prague"
-high_capacity = "50"
+high_capacity = "60"
 
 [[extra.place]]
 name = "Bratislava"
 id = "bratislava"
 elem_id = "zs-bratislava"
-elem_capacity = "50"
+elem_capacity = "60"
 high_id = "ss-bratislava"
-high_capacity = "50"
+high_capacity = "60"
 
 [[extra.place]]
 name = "Kraków"
@@ -57,7 +57,7 @@ In **Croatia**, the competition takes place in **Zagreb**. The exact location wi
 	  
 Fill out the following form to register. Each team should fill it out only once. 
 
-Registration for **elementary** category is open until **12.1.2026.**  
+Registration for **elementary** category is open until **12.1.2026.**
 
 Registration for **high school** category is open until **19.1.2026.** 
 

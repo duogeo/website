@@ -6,17 +6,17 @@ template="current.html"
 name = "Praha"
 id = "prague"
 elem_id = "zs-prague"
-elem_capacity = "50"
+elem_capacity = "60"
 high_id = "ss-prague"
-high_capacity = "50"
+high_capacity = "60"
 
 [[extra.place]]
 name = "Bratislava"
 id = "bratislava"
 elem_id = "zs-bratislava"
-elem_capacity = "50"
+elem_capacity = "60"
 high_id = "ss-bratislava"
-high_capacity = "50"
+high_capacity = "60"
 
 [[extra.place]]
 name = "Kraków"
