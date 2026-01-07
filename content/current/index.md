@@ -22,9 +22,9 @@ high_capacity = "60"
 name = "Kraków"
 id = "krakow"
 elem_id = "zs-krakow"
-elem_capacity = "20"
+elem_capacity = "22"
 high_id = "ss-krakow"
-high_capacity = "20"
+high_capacity = "22"
 
 [[extra.place]]
 name = "Záhřeb"
