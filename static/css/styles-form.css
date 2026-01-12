@@ -76,6 +76,10 @@ form {
 	label:first-of-type {
 	    border-radius: 10px 0 0 10px;
 	}
+
+	label:only-of-type {
+	    border-radius: 10px 10px 10px 10px;
+	}
     }
 
     .registerbutton {
@@ -105,6 +109,10 @@ form {
 	    
 	    label:first-of-type {
 		border-radius: 10px 10px 0 0;
+	    }
+	    
+	    label:only-of-type {
+		border-radius: 10px 10px 10px 10px;
 	    }
 	}
     }
