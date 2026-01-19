@@ -35,6 +35,13 @@ high_id = "ss-zagreb"
 high_capacity = "10"
 +++
 
+## Problem statements
+
+Problems from the elementary category: [CZ](/zadani/2026/ZS-CZ.pdf) [SK](/zadani/2026/ZS-SK.pdf) [PL](/zadani/2026/ZS-PL.pdf) [EN](/zadani/2026/ZS-EN.pdf)
+
+Official solutions, currently only in english: [EN](/zadani/2026/ZS-EN-Solutions.pdf)
+
+
 ## This year 
 
 Capacity for each competition place is limited.

@@ -35,6 +35,12 @@ high_id = "ss-zagreb"
 high_capacity = "10"
 +++
 
+## Zadania
+
+Problemy z kategorii podstawowej: [CZ](/zadani/2026/ZS-CZ.pdf) [SK](/zadani/2026/ZS-SK.pdf) [PL](/zadani/2026/ZS-PL.pdf) [EN](/zadani/2026/ZS-EN.pdf)
+
+Oficjalne rozwiązania, obecnie tylko w języku angielskim: [EN](/zadani/2026/ZS-EN-Solutions.pdf)
+
 ## Bieżąca edycja
 
 Liczba miejsc w każdym mieście jest ograniczona.

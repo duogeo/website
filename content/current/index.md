@@ -35,6 +35,12 @@ high_id = "ss-zagreb"
 high_capacity = "10"
 +++
 
+## Zadání
+
+Zadání kategorie ZŠ: [CZ](/zadani/2026/ZS-CZ.pdf) [SK](/zadani/2026/ZS-SK.pdf) [PL](/zadani/2026/ZS-PL.pdf) [EN](/zadani/2026/ZS-EN.pdf)
+
+Vzorová řešení, zatím pouze v angličtině: [EN](/zadani/2026/ZS-EN-Solutions.pdf)
+
 ## Aktuální ročník 
 
 Maxímální kapacita je pro každé soutěžní místo omezena.
