@@ -54,11 +54,3 @@ W **Chorwacji** miejscem zawodów jest **Zagrzeb**. Dokładne miejsce zostanie o
 ## Rejestracja
 
 {{ registertable() }}
-	  
-W celu zarejestrowania drużyny wypełnij poniższy formularz. Każda drużyna powinna go wypełnić tylko raz. 
-
-Rejestracja dla kategorii szkół **podstawowych** będzie otwarta do **12.1.2026.** 
-
-Rejestracja dla kategorii szkół **ponadpodstawowych** będzie otwarta do **19.1.2026.**
-
-{{ form() }}

@@ -55,10 +55,3 @@ V **Chorvatsku** se soutěž koná v **Záhřebu**, přesnější místo bude sp
 	  
 {{ registertable() }}
 	  
-K registraci vyplňte následující formulář. Za každý tým ho vyplňte prosím nejvýše jednou. 
-
-Registrujte se do **ZŠ** kategorie do **12.1.2026.** 
-
-Registrujte se do **SŠ** kategorie do **19.1.2026.**
-	
-{{ form() }}

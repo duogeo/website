@@ -54,11 +54,3 @@ In **Croatia**, the competition takes place in **Zagreb**. The exact location wi
 ## Registration 
 
 {{ registertable() }}
-	  
-Fill out the following form to register. Each team should fill it out only once. 
-
-Registration for **elementary** category is open until **12.1.2026.**
-
-Registration for **high school** category is open until **19.1.2026.** 
-
-{{ form() }}
