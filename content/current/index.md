@@ -41,6 +41,11 @@ Zadání kategorie ZŠ: [CZ](/zadani/2026/ZS-CZ.pdf) [SK](/zadani/2026/ZS-SK.pdf
 
 Vzorová řešení, zatím pouze v angličtině: [EN](/zadani/2026/ZS-EN-Solutions.pdf)
 
+Zadání kategorie SŠ: [CZ](/zadani/2026/SS-CZ.pdf) [SK](/zadani/2026/SS-SK.pdf) [PL](/zadani/2026/SS-PL.pdf) [HR](/zadani/2026/SS-HR.pdf)  [EN](/zadani/2026/SS-EN.pdf) 
+
+Vzorová řešení, zatím pouze v angličtině: [EN](/zadani/2026/SS-EN-Solutions.pdf)
+
+
 ## Aktuální ročník 
 
 Maxímální kapacita je pro každé soutěžní místo omezena.

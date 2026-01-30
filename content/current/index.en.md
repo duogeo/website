@@ -41,6 +41,9 @@ Problems from the elementary category: [CZ](/zadani/2026/ZS-CZ.pdf) [SK](/zadani
 
 Official solutions, currently only in english: [EN](/zadani/2026/ZS-EN-Solutions.pdf)
 
+Problems from the high school category: [CZ](/zadani/2026/SS-CZ.pdf) [SK](/zadani/2026/SS-SK.pdf) [PL](/zadani/2026/SS-PL.pdf) [HR](/zadani/2026/SS-HR.pdf)  [EN](/zadani/2026/SS-EN.pdf) 
+
+Official solutions, currently only in english: [EN](/zadani/2026/SS-EN-Solutions.pdf)
 
 ## This year 
 

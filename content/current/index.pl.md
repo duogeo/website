@@ -41,6 +41,11 @@ Problemy z kategorii podstawowej: [CZ](/zadani/2026/ZS-CZ.pdf) [SK](/zadani/2026
 
 Oficjalne rozwiązania, obecnie tylko w języku angielskim: [EN](/zadani/2026/ZS-EN-Solutions.pdf)
 
+Problemy z kategorii ponadpodstawowej: [CZ](/zadani/2026/SS-CZ.pdf) [SK](/zadani/2026/SS-SK.pdf) [PL](/zadani/2026/SS-PL.pdf) [HR](/zadani/2026/SS-HR.pdf)  [EN](/zadani/2026/SS-EN.pdf) 
+
+Oficjalne rozwiązania, obecnie tylko w języku angielskim: [EN](/zadani/2026/SS-EN-Solutions.pdf)
+
+
 ## Bieżąca edycja
 
 Liczba miejsc w każdym mieście jest ograniczona.
