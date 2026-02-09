@@ -16,9 +16,12 @@
   <tr>
     {% for item in row %}
     {% if loop.index == 2 %}
-    {% set nextitem = row | nth(n=2) %}
-    <td><div class="tym-vysledky"><div>{{item}}</div><div>{{nextitem}}</div></div></td>
+    {% set name1 = row | nth(n=2) %}
+    {% set name2 = row | nth(n=3) %}
+    <td><div class="tym-vysledky"><img src="/flags/{{item}}.svg"><div>{{name1}}</div><div>{{name2}}</div></div></td>
     {% elif loop.index == 3 %}
+    {% continue %}
+    {% elif loop.index == 4 %}
     {% continue %}
     {% else %}
     <td>{{item}}</td>

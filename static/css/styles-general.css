@@ -101,6 +101,10 @@ iframe{
     border-left: solid 2px var(--menu-text-color);
 }
 
+.tym-table img{
+    height: 20px;
+}
+
 .tym-vysledky{
     display: flex;
     flex-direction: row;
