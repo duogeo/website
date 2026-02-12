@@ -62,7 +62,10 @@ V **Krakově** se soutěž koná v budově fakulty matematiky a informatiky Jage
 
 V **Chorvatsku** se soutěž koná v **Záhřebu**, přesnější místo bude specifikováno.
 
-## Registrace 
-	  
-{{ registertable() }}
-	  
+## Výsledky ZŠ
+
+Výsledky z ostatních zemí se zde objeví později.
+
+{{ results(file="2026/zs.csv") }}
+
+*Ve výsledkovce jsou hvězdičkou označené neoficiální týmy soutěžící v Opavě, kde jsme letos testovali možnost případného nového soutěžního místa.
