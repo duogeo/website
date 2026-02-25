@@ -62,10 +62,14 @@ W **Krakowie** miejsce zawodów to WMiI UJ, **ul. Prof. S. Łojasiewicza 6, 30-3
 
 W **Chorwacji** miejscem zawodów jest **Zagrzeb**. Dokładne miejsce zostanie określone później.
 
-## Results for the Elementary category 
+## Results for the Elementary category - Czech and Slovak Republic
 
 Results from other countries will appear later.
 
 {{ results(file="2026/zs.csv") }}
 
 *The results list includes unofficial teams competing in Opava, marked with an asterisk, where we tested the possibility of a new competition place.
+
+## Results for the Elementary category - Poland
+
+{{ results(file="2026/zs-pl.csv") }}

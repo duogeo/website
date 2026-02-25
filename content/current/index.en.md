@@ -61,10 +61,12 @@ In **Kraków** the competition takes place at Faculty of Mathematics and Compute
 
 In **Croatia**, the competition takes place in **Zagreb**. The exact location will be specified later.
 
-## Results for the Elementary category 
-
-Results from other countries will appear later.
+## Results for the Elementary category - Czech and Slovak Republic
 
 {{ results(file="2026/zs.csv") }}
 
 *The results list includes unofficial teams competing in Opava, marked with an asterisk, where we tested the possibility of a new competition place.
+
+## Results for the Elementary category - Poland
+
+{{ results(file="2026/zs-pl.csv") }}
