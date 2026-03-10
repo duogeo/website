@@ -78,8 +78,6 @@ W **Chorwacji** miejscem zawodów jest **Zagrzeb**. Dokładne miejsce zostanie o
 
 ## Results for the Elementary category - Czech and Slovak Republic
 
-Results from other countries will appear later.
-
 {{ results(file="2026/zs.csv") }}
 
 *The results list includes unofficial teams competing in Opava, marked with an asterisk, where we tested the possibility of a new competition place.
