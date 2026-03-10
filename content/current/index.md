@@ -62,6 +62,20 @@ V **Krakově** se soutěž koná v budově fakulty matematiky a informatiky Jage
 
 V **Chorvatsku** se soutěž koná v **Záhřebu**, přesnější místo bude specifikováno.
 
+## Výsledky SŠ - Česká a Slovenská republika
+
+{{ results(file="2026/ss.csv") }}
+
+*Ve výsledkovce jsou hvězdičkou označené neoficiální týmy soutěžící v Opavě, kde jsme letos testovali možnost případného nového soutěžního místa.
+
+## Výsledky SŠ - Polsko
+
+{{ results(file="2026/ss-pl.csv") }}
+
+## Výsledky SŠ - Chorvatsko
+
+{{ results(file="2026/ss-hr.csv") }}
+
 ## Výsledky ZŠ - Česká a Slovenská republika
 
 {{ results(file="2026/zs.csv") }}
