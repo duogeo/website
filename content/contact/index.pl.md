@@ -72,7 +72,7 @@ name="Matej Novota"
 img="novota.webp"
 
 [[extra.org]]
-name="Miłosz Piatek"
+name="Miłosz Płatek"
 img="milosz.webp"
 role="Polish organizer"
 
