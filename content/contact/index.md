@@ -72,6 +72,16 @@ name="Matej Novota"
 img="novota.webp"
 
 [[extra.org]]
+name="Miłosz Piatek"
+img="milosz.webp"
+role="Polský organizátor"
+
+[[extra.org]]
+name="Dominik Bysiewicz"
+img="dominik.webp"
+role="Polský organizátor"
+
+[[extra.org]]
 name="Anna Trnková"
 img="blank.webp"
 
