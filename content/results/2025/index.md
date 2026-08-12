@@ -14,8 +14,8 @@ Vzorová řešení naleznete [zde](/zadani/2025/SS-riesenia.pdf)
 
 ## Výsledky SŠ
 
-{{ results(file="2025/ss.csv") }}
+{{ <results file="2025/ss.csv" lang/> }}
 
 ## Výsledky ZŠ
 
-{{ results(file="2025/zs.csv") }}
+{{ <results file="2025/zs.csv" lang/> }}

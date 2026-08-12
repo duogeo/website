@@ -1,32 +1,40 @@
+{% component results(file: string, lang: string) %}
 <table class="tym-table">
   <tr>
-<th></th>
-<th>{{ trans(key='teamheader', lang=lang) }}</th>
-<th>1</th>
-<th>2</th>
-<th>3</th>
-<th>4</th>
-<th>5</th>
-<th>6</th>
-<th>{{ trans(key='sum', lang=lang) }}</th>
-</tr>
+    <th></th>
+    <th>{{ trans(key='teamheader', lang=lang) }}</th>
+    <th>1</th>
+    <th>2</th>
+    <th>3</th>
+    <th>4</th>
+    <th>5</th>
+    <th>6</th>
+    <th>{{ trans(key='sum', lang=lang) }}</th>
+  </tr>
+  
+  {# Why doesn't text inside the for loop render properly?? #}
+
+  {% set res = "" %}
   
   {% set data = load_data(path="results/"~file) %}
-  {% for row in [data.headers] | concat(with=data.records) %}
-  <tr>
+  {% for row in [data.headers, ...data.records] %}
+    {% set_global res = res ~ "<tr>" %}
     {% for item in row %}
-    {% if loop.index == 2 %}
-    {% set name1 = row | nth(n=2) %}
-    {% set name2 = row | nth(n=3) %}
-    <td><div class="tym-vysledky"><img src="/flags/{{item}}.svg"><div>{{name1}}</div><div>{{name2}}</div></div></td>
-    {% elif loop.index == 3 %}
-    {% continue %}
-    {% elif loop.index == 4 %}
-    {% continue %}
-    {% else %}
-    <td>{{item}}</td>
-    {% endif %}
+      {% if loop.index == 2 %}
+        {% set name1 = row | nth(n=2) %}
+        {% set name2 = row | nth(n=3) %}
+        {% set_global res = res ~ "<td><div class=\"tym-vysledky\"><img src=\"/flags/" ~ item ~ ".svg\"><div>" ~ name1 ~ "</div><div>" ~ name2 ~ "</div></div></td>" %}
+      {% elif loop.index == 3 %}
+        {% continue %}
+      {% elif loop.index == 4 %}
+        {% continue %}
+      {% else %}
+        {% set_global res = res ~ "<td>" ~ item ~ "</td>" %}
+      {% endif %}
     {% endfor %}
-  </tr>
+    {% set_global res = res ~ "</tr>" %}
   {% endfor %}
+
+  {{ res }}
 </table>
+{% endcomponent results %}
