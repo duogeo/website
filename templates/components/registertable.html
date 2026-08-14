@@ -1,24 +1,25 @@
+{% component registertable(page, lang: string) %}
 <table>
     <tr>
       <th>{{ trans(key='no_registered', lang=lang) }}</th>
       <th>{{ trans(key='elementary', lang=lang) }}</th>
       <th>{{ trans(key='high_school', lang=lang) }}</th>
     </tr>
-    {% for place in page.extra.place %}
+    {% for place in page.extra.place -%}
     <tr>
       <td>{{ place.name }}</td>
       <td id="{{ place.elem_id }}" class="left"><img class="loader" src="{{ get_url(path='css-loader.gif') }}"> / {{ place.elem_capacity }}</td>
       <td id="{{ place.high_id }}" class="left"><img class="loader" src="{{ get_url(path='css-loader.gif') }}"> / {{ place.high_capacity }}</td>
     </tr>
-    {% endfor %}
+    {%- endfor %}
   </table>
   <script>
     function fetchRegisterData() {
 	const tasks = [
-	    {% for place in page.extra.place %}
+	    {% for place in page.extra.place -%}
             { url: 'https://register.duogeo.cz/{{ place.elem_id }}', element: '{{ place.elem_id }}', capacity: '{{ place.elem_capacity }}'},
 	    { url: 'https://register.duogeo.cz/{{ place.high_id }}', element: '{{ place.high_id }}', capacity: '{{ place.high_capacity }}'},
-	    {% endfor %}
+	    {%- endfor %}
 	];
 	
 	tasks.forEach(task => {
@@ -35,3 +36,4 @@
     
     fetchRegisterData();
   </script>
+{% endcomponent registertable %}
