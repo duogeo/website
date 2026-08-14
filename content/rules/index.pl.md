@@ -16,17 +16,17 @@ template="rules.html"
 
 Oto przykładowe zadanie na średnim poziomie trudności w kategorii **junior**:
 
-{% <problem> %}
+{% <problem> -%}
 W trójkącie równobocznym $ABC$ o boku długości $8\,\text{cm}$, punkt $D$ to środek boku $BC$, a punkt $E$ to środek boku $AC$. Punkt $F$ wybrano na prostej $BC$ w taki sposób, że pole trójkąta $ABF$ jest równe polu czworokąta $ABDE$. Oblicz długość odcinka $BF$.
-{% </problem> %}
+{%- </problem> %}
 
 Oto przykładowe zadanie na średnim poziomie trudności w kategorii **senior**:
 	
-{% <problem> %}
+{% <problem> -%}
 Dany jest trójkąt ostrokatny $ABC$. Na prostej $BC$ obrano takie punkty $P$ i $Q$, że $|AB| = |BP|$, $|AC| = |CQ|$ oraz $P$, $B$, $C$, $Q$ leżą w tej kolejności.
 Niech $J$ to środek okręgu dopisanego do trójkąta $ABC$ stycznego do boku $BC$, a $D$ i $E$ to punkty styczności tego okręgu do prostych $AB$ i $AC$, odpowiednio.
 Załóżmy, że proste $DP$ i $EQ$ przecinają się w punkcie $F \neq J$ leżącym bliżej $D$ niż $P$ i bliżej $E$ niż $Q$. Udowodnij, że $AF \perp FJ$. 
-{% </problem> %}
+{%- </problem> %}
 
 ## Regulamin konkursu
 

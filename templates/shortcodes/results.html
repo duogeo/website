@@ -12,29 +12,24 @@
     <th>{{ trans(key='sum', lang=lang) }}</th>
   </tr>
   
-  {# Why doesn't text inside the for loop render properly?? #}
-
-  {% set res = "" %}
-  
   {% set data = load_data(path="results/"~file) %}
   {% for row in [data.headers, ...data.records] %}
-    {% set_global res = res ~ "<tr>" %}
+  <tr>
     {% for item in row %}
       {% if loop.index == 2 %}
         {% set name1 = row | nth(n=2) %}
         {% set name2 = row | nth(n=3) %}
-        {% set_global res = res ~ "<td><div class=\"tym-vysledky\"><img src=\"/flags/" ~ item ~ ".svg\"><div>" ~ name1 ~ "</div><div>" ~ name2 ~ "</div></div></td>" %}
+  <td><div class="tym-vysledky"><img src="/flags/{{item}}.svg"><div>{{name1}}</div><div>{{name2}}</div></div></td>
       {% elif loop.index == 3 %}
         {% continue %}
       {% elif loop.index == 4 %}
         {% continue %}
       {% else %}
-        {% set_global res = res ~ "<td>" ~ item ~ "</td>" %}
+  <td>{{item}}</td>
       {% endif %}
     {% endfor %}
-    {% set_global res = res ~ "</tr>" %}
+  </tr>
   {% endfor %}
 
-  {{ res }}
 </table>
 {% endcomponent results %}
