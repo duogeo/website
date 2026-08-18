@@ -64,24 +64,24 @@ V **Chorvatsku** se soutěž koná v **Záhřebu**, přesnější místo bude sp
 
 ## Výsledky SŠ - Česká a Slovenská republika
 
-{{ results(file="2026/ss.csv") }}
+{{ <results file="2026/ss.csv" lang/> }}
 
 *Ve výsledkovce jsou hvězdičkou označené neoficiální týmy soutěžící v Opavě, kde jsme letos testovali možnost případného nového soutěžního místa.
 
 ## Výsledky SŠ - Polsko
 
-{{ results(file="2026/ss-pl.csv") }}
+{{ <results file="2026/ss-pl.csv" lang/> }}
 
 ## Výsledky SŠ - Chorvatsko
 
-{{ results(file="2026/ss-hr.csv") }}
+{{ <results file="2026/ss-hr.csv" lang/> }}
 
 ## Výsledky ZŠ - Česká a Slovenská republika
 
-{{ results(file="2026/zs.csv") }}
+{{ <results file="2026/zs.csv" lang/> }}
 
 *Ve výsledkovce jsou hvězdičkou označené neoficiální týmy soutěžící v Opavě, kde jsme letos testovali možnost případného nového soutěžního místa.
 
 ## Výsledky ZŠ - Polsko
 
-{{ results(file="2026/zs-pl.csv") }}
+{{ <results file="2026/zs-pl.csv" lang/> }}

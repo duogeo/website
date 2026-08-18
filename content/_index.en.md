@@ -15,10 +15,10 @@ texts = [
 [[extra.boxes]]
 header = "Where?"
 items = [
-"{{ flag(path='flags/cz.svg') }} **Prague, Czechia**",
-"{{ flag(path='flags/sk.svg') }} **Bratislava, Slovakia**",
-"{{ flag(path='flags/pl.svg') }} **Kraków, Poland**",
-"{{ flag(path='flags/hr.svg') }} **Zagreb, Croatia**"
+"<img class='flag' src='/flags/cz.svg'> **Prague, Czechia**",
+"<img class='flag' src='/flags/sk.svg'> **Bratislava, Slovakia**",
+"<img class='flag' src='/flags/pl.svg'> **Kraków, Poland**",
+"<img class='flag' src='/flags/hr.svg'> **Zagreb, Croatia**"
 ]
 
 [[extra.boxes]]

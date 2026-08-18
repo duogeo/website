@@ -64,24 +64,24 @@ W **Chorwacji** miejscem zawodów jest **Zagrzeb**. Dokładne miejsce zostanie o
 
 ## Results for the High School category - Czech and Slovak Republic
 
-{{ results(file="2026/ss.csv") }}
+{{ <results file="2026/ss.csv" lang/> }}
 
 *The results list includes unofficial teams competing in Opava, marked with an asterisk, where we tested the possibility of a new competition place.
 
 ## Results for the High School category - Poland
 
-{{ results(file="2026/ss-pl.csv") }}
+{{ <results file="2026/ss-pl.csv" lang/> }}
 
 ## Results for the High School category - Croatia
 
-{{ results(file="2026/ss-hr.csv") }}
+{{ <results file="2026/ss-hr.csv" lang/> }}
 
 ## Results for the Elementary category - Czech and Slovak Republic
 
-{{ results(file="2026/zs.csv") }}
+{{ <results file="2026/zs.csv" lang/> }}
 
 *The results list includes unofficial teams competing in Opava, marked with an asterisk, where we tested the possibility of a new competition place.
 
 ## Results for the Elementary category - Poland
 
-{{ results(file="2026/zs-pl.csv") }}
+{{ <results file="2026/zs-pl.csv" lang/> }}

@@ -15,19 +15,19 @@ template="rules.html"
 
 Zde je ukázka středně těžké úlohy pro **kategorii ZŠ**:
 
-{% problem() %}
+{% <problem> -%}
 V rovnostranném trojúhelníku $ABC$ se stranou délky $8\,\text{cm}$ je bod $D$ střed strany $BC$ a bod $E$ je střed strany $AC$.
 Bod $F$ leží na úsečce $BC$ tak, že obsah trojúhelníku $ABF$ je stejný jako obsah čtyřúhelníku $ABDE$. Vypočtěte délku úsečky $BF$.
-{% end %}
+{%- </problem> %}
 
 Zde je ukázka středně těžké úlohy pro **kategorii SŠ**:
 	
-{% problem() %}
+{% <problem> -%}
 Je dán ostroúhlý trojúhelník $ABC$. Na polopřímce opačné k polopřímce $BC$ leží bod $P$ takový, že $|AB| = |BP|$.
 Analogicky na polopřímce opačné k polopřímce $CB$ leží bod $Q$ takový, že $|AC| = |CQ|$.
 Označme $J$ střed kružnice připsané straně $BC$ daného trojúhelníka a $D, E$ po řadě její body dotyku s přímkami $AB$ a $AC$.
 Předpokládejme, že polopřímky opačné k polopřímkám $DP$ a $EQ$ se protínají v bodě $F$ různém od $J$. Dokažte, že $AF \perp FJ$.
-{% end %}
+{%- </problem> %}
 
 ## Pravidla během soutěže
 

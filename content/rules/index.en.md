@@ -15,17 +15,17 @@ template="rules.html"
 
 Here is an example of a task of medium difficulty for the **elementary category**:
 
-{% problem() %}
+{% <problem> -%}
 In an equilateral triangle $ABC$ with side length $8\,\text{cm}$, point $D$ is the midpoint of side $BC$ and point $E$ is the midpoint of side $AC$. Point $F$ lies on line $BC$ such that the area of triangle $ABF$ is equal to the area of quadrilateral $ABDE$. Calculate the length of segment $BF$.
-{% end %}
+{%- </problem> %}
 
 Here is an example of a task of medium difficulty for the **high school category**:
 	
-{% problem() %}
+{% <problem> -%}
 We are given an acute-angled triangle $ABC$. On the ray opposite to ray $BC$ lies a point $P$ such that $|AB| = |BP|$. Analogously, on the ray opposite to ray $CB$ lies a point $Q$ such that $|AC| = |CQ|$.
 Let $J$ denote the excenter of triangle $ABC$ corresponding to side $BC$, and let $D$ and $E$ be the points of tangency of this excircle with the lines $AB$ and $AC$, respectively.
 Assume that the rays opposite to the rays $DP$ and $EQ$ intersect at a point $F \neq J$. Prove that $AF \perp FJ$. 
-{% end %}
+{%- </problem> %}
 
 ## Rules during the competition
 

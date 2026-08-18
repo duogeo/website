@@ -15,8 +15,8 @@ The official solutions can be found [here](/zadani/2025/SS-riesenia.pdf) (Czech 
 
 ## Results for the High School Category
 
-{{ results(file="2025/ss.csv") }}
+{{ <results file="2025/ss.csv" lang/> }}
 
 ## Results for the Elementary Category
 
-{{ results(file="2025/zs.csv") }}
+{{ <results file="2025/zs.csv" lang/> }}
