@@ -15,17 +15,18 @@ texts = [
 [[extra.boxes]]
 header = "Kde?"
 items = [
-"<img class='flag' src='/flags/cz.svg'> **Praha, Česko**",
-"<img class='flag' src='/flags/sk.svg'> **Bratislava, Slovensko**",
-"<img class='flag' src='/flags/pl.svg'> **Krakov, Polsko**",
-"<img class='flag' src='/flags/hr.svg'> **Záhřeb, Chorvatsko**"
+"<img class='flag' src='/flags/cz.svg'> **Praha, Opava**",
+"<img class='flag' src='/flags/sk.svg'> **Bratislava, Košice**",
+"<img class='flag' src='/flags/pl.svg'> **Krakov, Varšava**",
+"<img class='flag' src='/flags/hr.svg'> **Záhřeb**",
+"<img class='flag' src='/flags/lt.svg'> **Vilnius**"
 ]
 
 [[extra.boxes]]
 header = "Kdy?"
 items = [
-"**Pátek 16.1.2026** pro ZŠ",
-"**Pátek 23.1.2026** pro SŠ"
+"**Pátek 14.1.2027** pro ZŠ",
+"**Pátek 15.1.2027** pro SŠ"
 ]
 
 [[extra.boxes]]
