@@ -7,9 +7,11 @@ template="results.html"
 ## Zadání
 
 Zadání kategorie ZŠ: [CZ](/zadani/2026/ZS-CZ.pdf) [SK](/zadani/2026/ZS-SK.pdf) [PL](/zadani/2026/ZS-PL.pdf) [EN](/zadani/2026/ZS-EN.pdf)
+
 Vzorová řešení kategorie ZŠ: [CZ](/zadani/2026/ZS-CZ-Solutions.pdf) [EN](/zadani/2026/ZS-EN-Solutions.pdf)
 
 Zadání kategorie SŠ: [CZ](/zadani/2026/SS-CZ.pdf) [SK](/zadani/2026/SS-SK.pdf) [PL](/zadani/2026/SS-PL.pdf) [HR](/zadani/2026/SS-HR.pdf)  [EN](/zadani/2026/SS-EN.pdf) 
+
 Vzorová řešení kategorie SŠ: [CZ](/zadani/2026/SS-CZ-Solutions.pdf) [EN](/zadani/2026/SS-EN-Solutions.pdf)
 
 ## Výsledky SŠ - Česká a Slovenská republika
