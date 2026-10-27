@@ -1,87 +1,34 @@
 +++
 template="current.html"
-
-[extra]
-[[extra.place]]
-name = "Praha"
-id = "prague"
-elem_id = "zs-prague"
-elem_capacity = "60"
-high_id = "ss-prague"
-high_capacity = "60"
-
-[[extra.place]]
-name = "Bratislava"
-id = "bratislava"
-elem_id = "zs-bratislava"
-elem_capacity = "60"
-high_id = "ss-bratislava"
-high_capacity = "60"
-
-[[extra.place]]
-name = "Kraków"
-id = "krakow"
-elem_id = "zs-krakow"
-elem_capacity = "20"
-high_id = "ss-krakow"
-high_capacity = "28"
-
-[[extra.place]]
-name = "Záhřeb"
-id = "zagreb"
-elem_id = "zs-zagreb"
-elem_capacity = "10"
-high_id = "ss-zagreb"
-high_capacity = "10"
 +++
 
-## Zadání
 
-Zadání kategorie ZŠ: [CZ](/zadani/2026/ZS-CZ.pdf) [SK](/zadani/2026/ZS-SK.pdf) [PL](/zadani/2026/ZS-PL.pdf) [EN](/zadani/2026/ZS-EN.pdf)
+# Aktuální ročník 
 
-Vzorová řešení kategorie ZŠ: [CZ](/zadani/2026/ZS-CZ-Solutions.pdf) [EN](/zadani/2026/ZS-EN-Solutions.pdf)
+Soutěž **kategorie ZŠ** bude probíhat v čtvrtek **14.1.2027** od **11:00 do 15:00 hodin.**
 
-Zadání kategorie SŠ: [CZ](/zadani/2026/SS-CZ.pdf) [SK](/zadani/2026/SS-SK.pdf) [PL](/zadani/2026/SS-PL.pdf) [HR](/zadani/2026/SS-HR.pdf)  [EN](/zadani/2026/SS-EN.pdf) 
-
-Vzorová řešení kategorie SŠ: [CZ](/zadani/2026/SS-CZ-Solutions.pdf) [EN](/zadani/2026/SS-EN-Solutions.pdf)
-
-
-## Aktuální ročník 
+Soutěž **kategorie SŠ** bude probíhat v pátek **15.1.2027** od **11:00 do 16:00 hodin.**
 
 Maxímální kapacita je pro každé soutěžní místo omezena.
 
-Soutěž **kategorie ZŠ** bude probíhat v pátek **16.1.2026** od **11:00 do 15:00 hodin.**
+## Místa konání
 
-Soutěž **kategorie SŠ** bude probíhat v pátek **23.1.2026** od **11:00 do 16:00 hodin.**
-	
-V **Praze** se soutěž koná v budově MS MFF UK na adrese **Malostranské náměstí 2/25, 118 00 Praha 1.**
+V **Praze** {{ <flag code="cz"/>}} se soutěž koná v budově MS MFF UK na adrese **Malostranské náměstí 2/25, 118 00 Praha 1.**
 
-V **Bratislavě** se soutěž koná v budově FMFI UK na adrese **Mlynská dolina pavilon F1, 842 48 Bratislava.**
+Místo konání v **Opavě** {{ <flag code="cz"/>}} bude ještě upřesněno.
 
-V **Krakově** se soutěž koná v budově fakulty matematiky a informatiky Jagelonské University na adrese **ul. prof. Stanisława Łojasiewicza 6, 30-348 Kraków.**
+V **Bratislavě** {{ <flag code="sk"/>}} se soutěž koná v budově FMFI UK na adrese **Mlynská dolina pavilon F1, 842 48 Bratislava.**
 
-V **Chorvatsku** se soutěž koná v **Záhřebu**, přesnější místo bude specifikováno.
+Místo konání v **Košicích** {{ <flag code="sk"/>}} bude ještě upřesněno.
 
-## Výsledky SŠ - Česká a Slovenská republika
+V **Krakově** {{ <flag code="pl"/>}} se soutěž koná v budově fakulty matematiky a informatiky Jagelonské University na adrese **ul. prof. Stanisława Łojasiewicza 6, 30-348 Kraków.**
 
-{{ <results file="2026/ss.csv" lang/> }}
+Místo konání ve **Varšavě** {{ <flag code="pl"/>}} bude ještě upřesněno.
 
-*Ve výsledkovce jsou hvězdičkou označené neoficiální týmy soutěžící v Opavě, kde jsme letos testovali možnost případného nového soutěžního místa.
+Místo konání v **Záhřebu** {{ <flag code="hr"/>}} bude ještě upřesněno.
 
-## Výsledky SŠ - Polsko
+Místo konání ve **Vilniusu** {{ <flag code="lt"/>}} bude ještě upřesněno.
 
-{{ <results file="2026/ss-pl.csv" lang/> }}
+## Registrace
 
-## Výsledky SŠ - Chorvatsko
-
-{{ <results file="2026/ss-hr.csv" lang/> }}
-
-## Výsledky ZŠ - Česká a Slovenská republika
-
-{{ <results file="2026/zs.csv" lang/> }}
-
-*Ve výsledkovce jsou hvězdičkou označené neoficiální týmy soutěžící v Opavě, kde jsme letos testovali možnost případného nového soutěžního místa.
-
-## Výsledky ZŠ - Polsko
-
-{{ <results file="2026/zs-pl.csv" lang/> }}
+Registrace začne již brzy.

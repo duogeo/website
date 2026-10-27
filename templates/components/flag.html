@@ -1,0 +1,17 @@
+{% component flag(code: string = "cz") %}
+  <img class="flag" src="
+  {%- if code == "cz" -%}
+    /flags/cz.svg
+  {%- elif code == "sk" -%}
+    /flags/sk.svg
+  {%- elif code == "gb" -%}
+    /flags/gb.svg
+  {%- elif code == "hr" -%}
+    /flags/hr.svg
+  {%- elif code == "pl" -%}
+    /flags/pl.svg
+  {%- elif code == "lt" -%}
+    /flags/lt.svg
+  {%- endif -%}
+  ">
+{% endcomponent flag %}

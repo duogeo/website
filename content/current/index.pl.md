@@ -1,87 +1,33 @@
 +++
 template="current.html"
-
-[extra]
-[[extra.place]]
-name = "Praga"
-id = "prague"
-elem_id = "zs-prague"
-elem_capacity = "60"
-high_id = "ss-prague"
-high_capacity = "60"
-
-[[extra.place]]
-name = "Bratysława"
-id = "bratislava"
-elem_id = "zs-bratislava"
-elem_capacity = "60"
-high_id = "ss-bratislava"
-high_capacity = "60"
-
-[[extra.place]]
-name = "Kraków"
-id = "krakow"
-elem_id = "zs-krakow"
-elem_capacity = "20"
-high_id = "ss-krakow"
-high_capacity = "28"
-
-[[extra.place]]
-name = "Zagrzeb"
-id = "zagreb"
-elem_id = "zs-zagreb"
-elem_capacity = "10"
-high_id = "ss-zagreb"
-high_capacity = "10"
 +++
 
-## Zadania
+# Bieżąca edycja
 
-Problemy z kategorii podstawowej: [CZ](/zadani/2026/ZS-CZ.pdf) [SK](/zadani/2026/ZS-SK.pdf) [PL](/zadani/2026/ZS-PL.pdf) [EN](/zadani/2026/ZS-EN.pdf)
+Zawody dla szkół **podstawowych** odbędą się w piątek **14.1.2027** od godziny **11:00 do 15:00**.
 
-Oficjalne rozwiązania, obecnie tylko w języku czeskim i angielskim: [CZ](/zadani/2026/ZS-CZ-Solutions.pdf) [EN](/zadani/2026/ZS-EN-Solutions.pdf)
-
-Problemy z kategorii ponadpodstawowej: [CZ](/zadani/2026/SS-CZ.pdf) [SK](/zadani/2026/SS-SK.pdf) [PL](/zadani/2026/SS-PL.pdf) [HR](/zadani/2026/SS-HR.pdf)  [EN](/zadani/2026/SS-EN.pdf) 
-
-Oficjalne rozwiązania, obecnie tylko w języku czeskim i angielskim: [CZ](/zadani/2026/SS-CZ-Solutions.pdf) [EN](/zadani/2026/SS-EN-Solutions.pdf)
-
-
-## Bieżąca edycja
+Zawody dla szkół **ponadpodstawowych** odbędą się w piątek **15.1.2027** od godziny **11:00 do 16:00**.
 
 Liczba miejsc w każdym mieście jest ograniczona.
 
-Zawody dla szkół **podstawowych odbędą** się w piątek **16.1.2026** od godziny **11:00 do 15:00**.
+## Miejsca zawodów
 
-Zawody dla szkół **ponadpodstawowych odbędą** się w piątek **23.1.2026** od godziny **11:00 do 16:00**.
+W **Pradze** {{ <flag code="cz"/> }} miejsce zawodów to MS MFF UK, **Malostranské náměstí 2/25, 118 00 Praha 1**.
 
-W **Pradze** miejsce zawodów to MS MFF UK, **Malostranské náměstí 2/25, 118 00 Praha 1**.
+W **Opawie** {{ <flag code="cz"/> }} dokładne miejsce zostanie określone później.
 
-W **Bratysławie** miejsce zawodów to FMFI UK, **Mlynská dolina pavilon F1, 842 48 Bratislava**.
+W **Bratysławie** {{ <flag code="sk"/> }} miejsce zawodów to FMFI UK, **Mlynská dolina pavilon F1, 842 48 Bratislava**.
 
-W **Krakowie** miejsce zawodów to WMiI UJ, **ul. Prof. S. Łojasiewicza 6, 30-348 Kraków**.
+W **Koszycach** {{ <flag code="sk"/> }} dokładne miejsce zostanie określone później.
 
-W **Chorwacji** miejscem zawodów jest **Zagrzeb**. Dokładne miejsce zostanie określone później.
+W **Krakowie** {{ <flag code="pl"/> }} miejsce zawodów to WMiI UJ, **ul. prof. S. Łojasiewicza 6, 30-348 Kraków**.
 
-## Results for the High School category - Czech and Slovak Republic
+W **Warszawie** {{ <flag code="pl"/> }} dokładne miejsce zostanie określone później.
 
-{{ <results file="2026/ss.csv" lang/> }}
+W **Zagrzebiu** {{ <flag code="hr"/> }} dokładne miejsce zostanie określone później.
 
-*The results list includes unofficial teams competing in Opava, marked with an asterisk, where we tested the possibility of a new competition place.
+W **Wilnie** {{ <flag code="lt"/> }} dokładne miejsce zostanie określone później.
 
-## Results for the High School category - Poland
+## Rejestracja
 
-{{ <results file="2026/ss-pl.csv" lang/> }}
-
-## Results for the High School category - Croatia
-
-{{ <results file="2026/ss-hr.csv" lang/> }}
-
-## Results for the Elementary category - Czech and Slovak Republic
-
-{{ <results file="2026/zs.csv" lang/> }}
-
-*The results list includes unofficial teams competing in Opava, marked with an asterisk, where we tested the possibility of a new competition place.
-
-## Results for the Elementary category - Poland
-
-{{ <results file="2026/zs-pl.csv" lang/> }}
+Rejestracja rozpocznie się wkrótce.

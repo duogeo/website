@@ -1,86 +1,33 @@
 +++
 template="current.html"
-
-[extra]
-[[extra.place]]
-name = "Prague"
-id = "prague"
-elem_id = "zs-prague"
-elem_capacity = "60"
-high_id = "ss-prague"
-high_capacity = "60"
-
-[[extra.place]]
-name = "Bratislava"
-id = "bratislava"
-elem_id = "zs-bratislava"
-elem_capacity = "60"
-high_id = "ss-bratislava"
-high_capacity = "60"
-
-[[extra.place]]
-name = "Kraków"
-id = "krakow"
-elem_id = "zs-krakow"
-elem_capacity = "20"
-high_id = "ss-krakow"
-high_capacity = "28"
-
-[[extra.place]]
-name = "Zagreb"
-id = "zagreb"
-elem_id = "zs-zagreb"
-elem_capacity = "10"
-high_id = "ss-zagreb"
-high_capacity = "10"
 +++
 
-## Problem statements
+# This year
 
-Problems from the elementary category: [CZ](/zadani/2026/ZS-CZ.pdf) [SK](/zadani/2026/ZS-SK.pdf) [PL](/zadani/2026/ZS-PL.pdf) [EN](/zadani/2026/ZS-EN.pdf)
+The competition for **elementary category** will take place on Friday **14.1.2027** from **11:00 to 15:00.** 
 
-Official solutions of the elementary category: [CZ](/zadani/2026/ZS-CZ-Solutions.pdf) [EN](/zadani/2026/ZS-EN-Solutions.pdf)
-
-Problems from the high school category: [CZ](/zadani/2026/SS-CZ.pdf) [SK](/zadani/2026/SS-SK.pdf) [PL](/zadani/2026/SS-PL.pdf) [HR](/zadani/2026/SS-HR.pdf)  [EN](/zadani/2026/SS-EN.pdf) 
-
-Official solutions of the high school category: [CZ](/zadani/2026/SS-CZ-Solutions.pdf) [EN](/zadani/2026/SS-EN-Solutions.pdf)
-
-## This year 
+The competition for **high school category** will take place on Friday **15.1.2027** from **11:00 to 16:00.**
 
 Capacity for each competition place is limited.
 
-The competition for **elementary category** will take place on Friday **16.1.2026** from **11:00 to 15:00.** 
-
-The competition for **high school category** will take place on Friday **23.1.2026** from **11:00 to 16:00.** 
+## Competition places
 	
-In **Prague** the competition takes place at MS MFF UK at **Malostranské náměstí 2/25, 118 00 Praha 1.**
+In **Prague** {{ <flag code="cz"/>}} the competition takes place at MS MFF UK at **Malostranské náměstí 2/25, 118 00 Praha 1.**
 
-In **Bratislava** the competition takes place at FMFI UK at **Mlynská dolina pavilon F1, 842 48 Bratislava.**
+The location in **Opava** {{ <flag code="cz"/>}} will be specified.
 
-In **Kraków** the competition takes place at Faculty of Mathematics and Computer Science, Jagiellonian University at **ul. prof. Stanisława Łojasiewicza 6, 30-348 Kraków.**
+In **Bratislava** {{ <flag code="sk"/>}} the competition takes place at FMFI UK at **Mlynská dolina pavilon F1, 842 48 Bratislava.**
 
-In **Croatia**, the competition takes place in **Zagreb**. The exact location will be specified later.
+The location in **Košice** {{ <flag code="sk"/>}} will be specified later.
 
-## Results for the High School category - Czech and Slovak Republic
+In **Kraków** {{ <flag code="pl"/>}} the competition takes place at Faculty of Mathematics and Computer Science, Jagiellonian University at **ul. prof. Stanisława Łojasiewicza 6, 30-348 Kraków.**
 
-{{ <results file="2026/ss.csv" lang/> }}
+The location in **Warsaw** {{ <flag code="pl"/>}} will be specified.
 
-*The results list includes unofficial teams competing in Opava, marked with an asterisk, where we tested the possibility of a new competition place.
+The location in **Zagreb** {{ <flag code="hr"/>}} will be specified.
 
-## Results for the High School category - Poland
+The location in **Vilnius** {{ <flag code="lt"/>}} will be specified.
 
-{{ <results file="2026/ss-pl.csv" lang/> }}
+## Registration
 
-## Results for the High School category - Croatia
-
-{{ <results file="2026/ss-hr.csv" lang/> }}
-
-## Results for the Elementary category - Czech and Slovak Republic
-
-{{ <results file="2026/zs.csv" lang/> }}
-
-*The results list includes unofficial teams competing in Opava, marked with an asterisk, where we tested the possibility of a new competition place.
-
-## Results for the Elementary category - Poland
-
-{{ <results file="2026/zs-pl.csv" lang/> }}
+Registration will start soon. 
