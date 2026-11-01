@@ -112,8 +112,8 @@ high_capacity=60
 [[extra.place]]
 name="Košice"
 id="kosice"
-elem_capacity=60
-high_capacity=60
+elem_capacity=30
+high_capacity=30
 
 [[extra.place]]
 name="Kraków"
