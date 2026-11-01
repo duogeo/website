@@ -11,6 +11,8 @@ Soutěž **kategorie SŠ** bude probíhat v pátek **15.1.2027** od **11:00 do 1
 
 Maxímální kapacita je pro každé soutěžní místo omezena.
 
+{{ <registertable config={config} lang="cs"/> }}
+
 ## Místa konání
 
 V **Praze** {{ <flag code="cz"/>}} se soutěž koná v budově MS MFF UK na adrese **Malostranské náměstí 2/25, 118 00 Praha 1.**
@@ -31,4 +33,4 @@ Místo konání ve **Vilniusu** {{ <flag code="lt"/>}} bude ještě upřesněno.
 
 ## Registrace
 
-Registrace začne již brzy.
+{{ <form config={config} lang="cs"/> }}
