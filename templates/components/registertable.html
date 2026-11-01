@@ -21,7 +21,6 @@
 	    { url: 'https://register.duogeo.cz/ss-{{ place.id }}', element: 'ss-{{ place.id }}', capacity: '{{ place.high_capacity }}'},
 	    {%- endfor %}
 	];
-	
 	tasks.forEach(task => {
             fetch(task.url)
 	        .then(result => result.text())
@@ -33,7 +32,6 @@
 		});
 	});
     }
-    
     fetchRegisterData();
   </script>
 {% endcomponent registertable %}
