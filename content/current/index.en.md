@@ -10,6 +10,8 @@ The competition for **high school category** will take place on Friday **15.1.20
 
 Capacity for each competition place is limited.
 
+{{ <registertable config={config} lang="en"/> }}
+
 ## Competition places
 	
 In **Prague** {{ <flag code="cz"/>}} the competition takes place at MS MFF UK at **Malostranské náměstí 2/25, 118 00 Praha 1.**
@@ -30,4 +32,4 @@ The location in **Vilnius** {{ <flag code="lt"/>}} will be specified.
 
 ## Registration
 
-Registration will start soon. 
+{{ <form config={config} lang="en"/> }}

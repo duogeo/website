@@ -10,6 +10,8 @@ Zawody dla szkół **ponadpodstawowych** odbędą się w piątek **15.1.2027** o
 
 Liczba miejsc w każdym mieście jest ograniczona.
 
+{{ <registertable config={config} lang="pl"/> }}
+
 ## Miejsca zawodów
 
 W **Pradze** {{ <flag code="cz"/> }} miejsce zawodów to MS MFF UK, **Malostranské náměstí 2/25, 118 00 Praha 1**.
@@ -30,4 +32,4 @@ W **Wilnie** {{ <flag code="lt"/> }} dokładne miejsce zostanie określone póź
 
 ## Rejestracja
 
-Rejestracja rozpocznie się wkrótce.
+{{ <form config={config} lang="pl"/> }}
