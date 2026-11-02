@@ -136,5 +136,5 @@ high_capacity=10
 [[extra.place]]
 name="Vilnius"
 id="vilnius"
-elem_capacity=10
+elem_capacity=0
 high_capacity=10
