@@ -17,11 +17,11 @@ Maxímální kapacita je pro každé soutěžní místo omezena.
 
 V **Praze** {{ <flag code="cz"/>}} se soutěž koná v budově MS MFF UK na adrese **Malostranské náměstí 2/25, 118 00 Praha 1.**
 
-Místo konání v **Opavě** {{ <flag code="cz"/>}} bude ještě upřesněno.
+V **Opavě** {{ <flag code="cz"/>}} se soutěž koná na Mendelově gymnáziu na adrese **Komenského 397/5, 746 01 Opava.**
 
 V **Bratislavě** {{ <flag code="sk"/>}} se soutěž koná v budově FMFI UK na adrese **Mlynská dolina pavilon F1, 842 48 Bratislava.**
 
-Místo konání v **Košicích** {{ <flag code="sk"/>}} bude ještě upřesněno.
+V **Košicích** {{ <flag code="sk"/>}} se soutěž koná v areálu UPJŠ na adrese **Šrobárova 1014/2, 040 01 Košice.**
 
 V **Krakově** {{ <flag code="pl"/>}} se soutěž koná v budově fakulty matematiky a informatiky Jagelonské University na adrese **ul. prof. Stanisława Łojasiewicza 6, 30-348 Kraków.**
 
@@ -29,7 +29,7 @@ Místo konání ve **Varšavě** {{ <flag code="pl"/>}} bude ještě upřesněno
 
 Místo konání v **Záhřebu** {{ <flag code="hr"/>}} bude ještě upřesněno.
 
-Místo konání ve **Vilniusu** {{ <flag code="lt"/>}} bude ještě upřesněno.
+Ve **Vilniusu** {{ <flag code="lt"/>}} se soutěž koná Vilniuském lyceu na adrese **Širvintų g. 82, Vilnius.**
 
 ## Registrace
 
