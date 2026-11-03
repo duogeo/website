@@ -25,7 +25,7 @@ items = [
 [[extra.boxes]]
 header = "When?"
 items = [
-"**Friday, 14.1.2027** for middle schoolers",
+"**Thursday, 14.1.2027** for middle schoolers",
 "**Friday, 15.1.2027** for high schoolers"
 ]
 

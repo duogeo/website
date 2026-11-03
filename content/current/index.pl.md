@@ -4,7 +4,7 @@ template="current.html"
 
 # Bieżąca edycja
 
-Zawody dla szkół **podstawowych** odbędą się w piątek **14.1.2027** od godziny **11:00 do 15:00.**
+Zawody dla szkół **podstawowych** odbędą się w czwartek **14.1.2027** od godziny **11:00 do 15:00.**
 
 Zawody dla szkół **ponadpodstawowych** odbędą się w piątek **15.1.2027** od godziny **11:00 do 16:00.**
 

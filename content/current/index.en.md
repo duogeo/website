@@ -4,7 +4,7 @@ template="current.html"
 
 # This year
 
-The competition for **elementary category** will take place on Friday **14.1.2027** from **11:00 to 15:00.** 
+The competition for **elementary category** will take place on Thursday **14.1.2027** from **11:00 to 15:00.** 
 
 The competition for **high school category** will take place on Friday **15.1.2027** from **11:00 to 16:00.**
 
