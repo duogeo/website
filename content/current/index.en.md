@@ -32,4 +32,6 @@ In **Vilnius** {{ <flag code="lt"/>}} the competition takes place at Vilnius Lyc
 
 ## Registration
 
+Registration for both categories is open until **8.1.2027**.
+
 {{ <form config={config} lang="en"/> }}

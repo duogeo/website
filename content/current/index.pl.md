@@ -32,4 +32,6 @@ W **Wilnie** {{ <flag code="lt"/> }} miejsce zawodów to Vilnius Lyceum, **Širv
 
 ## Rejestracja
 
+Rejestracja dla obu kategorii będzie otwarta do **8.1.2027**.
+
 {{ <form config={config} lang="pl"/> }}

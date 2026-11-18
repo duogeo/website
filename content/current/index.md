@@ -33,4 +33,6 @@ Ve **Vilniusu** {{ <flag code="lt"/>}} se soutěž koná Vilniuském lyceu na ad
 
 ## Registrace
 
+Registrujte se do obou kategorií do **8.1.2027**.
+
 {{ <form config={config} lang="cs"/> }}
