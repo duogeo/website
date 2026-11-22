@@ -9,7 +9,7 @@ Soutěž **kategorie ZŠ** bude probíhat v čtvrtek **14.1.2027** od **11:00 do
 
 Soutěž **kategorie SŠ** bude probíhat v pátek **15.1.2027** od **11:00 do 16:00 hodin.**
 
-Maxímální kapacita je pro každé soutěžní místo omezena.
+Maximální kapacita je pro každé soutěžní místo omezena.
 
 {{ <registertable config={config} lang="cs"/> }}
 
